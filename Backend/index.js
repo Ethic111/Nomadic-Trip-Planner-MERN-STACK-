@@ -22,7 +22,7 @@ require("dotenv").config();
 // ))
 
 app.use(cors());
-app.use(express.json());
+app.use(express.json({ limit: "10GB" }));
 
 mongoose.connect(
   "mongodb+srv://explorenomadictrips:SRKS2003@cluster0.lu4bqm2.mongodb.net/Trip-Planner?retryWrites=true&w=majority"
@@ -127,6 +127,36 @@ app.put("/disablecity/:title", async (req, res) => {
   } catch (error) {
     console.error("Error disabling city:", error);
     res.status(500).send("Error disabling city.");
+  }
+});
+
+app.post("/addplaces", async (req, res) => {
+  try {
+    const placeData = req.body;
+    console.log("placeData:", placeData);
+
+    // delete placeData.__v;
+
+    const db = mongoose.connection.db;
+    const collection = db.collection("stories");
+    for (var i = 0; i < placeData.length; i++) {
+      const result1 = await collection.findOne({ title: placeData[i].title });
+      if (!result1) {
+        const result = await collection.insertOne(placeData[i]);
+      }
+      
+    }
+    res.status(200).send("Places added successfully.");
+    //   const result1 = await collection.findOne({ title: placeData.title });
+    //   if (result1) {
+    //     res.status(400).send("Place already exists.");
+    //     return;
+    //   }
+    //   const result = await collection.insertOne(placeData);
+    //   res.status(200).send("Place added successfully.");
+  } catch (error) {
+    console.error("Error adding place:", error);
+    res.status(500).send("Error adding place.");
   }
 });
 

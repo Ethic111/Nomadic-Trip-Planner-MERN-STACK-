@@ -77,7 +77,7 @@ function AdminDashboard() {
      
         <div className="d-flex justify-content-between align-items-center adminlogout mb-4">
         <div >
-          <span className="addnewcitytxt">Add New City</span>
+          <span className="addnewcitytxt">Add New City</span>c
           <Link to="/admin/addcity">
             <button style={{ marginTop: "15px" }} className="addnewcitybtn">Add</button>
           </Link>
@@ -207,7 +207,7 @@ function AdminDashboard() {
               </tr>
             </thead>
             <tbody>
-              <tr>
+              {/* <tr>
                 <td></td>
                 <td>
                   <div type="text" className="inputdiv">
@@ -230,7 +230,7 @@ function AdminDashboard() {
                   </div>
                 </td>
                 <td>
-                  {/* <div type="text" className="inputdiv">
+                 <div type="text" className="inputdiv">
                     <input
                       style={{ width: "56.5rem" }}
                       className="trtext"
@@ -238,31 +238,13 @@ function AdminDashboard() {
                       //   value={filters.name}
                       //   onChange={handleFilterInputChange}
                     />
-                  </div> */}
+                  </div>
                 </td>
                 <td></td>
                 <td></td>
                 <td></td>
-              </tr>
-              {/* <tr>
-                <td className="trtext"></td>
-                <td className="trtext">Hello</td>
-                <td className="trtext">Hello</td>
-                <td className="trtext">Hello</td>
-                <td className="trtext">Hello</td>
-                
-                <td className="trtext">
-                  <Switch/>
-                </td>
-                <td className="trtext">
-                  <button
-                    className="addmembtn"
-                    //   onClick={() => handlememberdelete(post)}
-                  >
-                    Delete
-                  </button>
-                </td>
               </tr> */}
+              
               {details.map((city, index) => (
                 <tr key={city._id}>
                   <td className="trtext">{index + 1}</td>

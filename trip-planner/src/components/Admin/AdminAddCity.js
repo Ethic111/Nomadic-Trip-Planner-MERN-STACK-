@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import "./AdminAddCity.css";
+import { toast } from "react-toastify";
 
 const AdminAddCity = () => {
   const [cityData, setCityData] = useState({
@@ -10,7 +11,8 @@ const AdminAddCity = () => {
     sub_title: "",
     description: "",
     img: "",
-    // placesToVisit: []
+    view: "true",
+    placesToVisit: [],
   });
 
   // useEffect(() => {
@@ -68,7 +70,24 @@ const AdminAddCity = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log("cityData", cityData);
+    var placesToVisit = cityData.placesToVisit;
+    // for (var i = 0; i < placesToVisit.length; i++) {
+    //   console.log(placesToVisit[i]);
+    // }
+
+    delete cityData["placesToVisit"];
+
     try {
+      await axios
+        .post("http://localhost:3001/addplaces", placesToVisit)
+        .then((response) => {
+          console.log(response);
+        })
+        .catch((error) => {
+          alert("Places already exists.");
+          console.log(error);
+        });
+        
       await axios
         .post("http://localhost:3001/addcity", cityData)
         .then((response) => {
@@ -79,16 +98,77 @@ const AdminAddCity = () => {
           console.log(error);
         });
 
+      document.getElementById("placesToVisit").value = "";
+      document.getElementById("img").value = "";
       setCityData({
         title: "",
         sub_title: "",
         description: "",
         img: "",
+        view: "true",
+        placesToVisit: [],
       });
     } catch (error) {
       console.error("Error adding city:", error);
     }
     // console.log(cityData);
+  };
+
+  const handleImageChange = (event) => {
+    const file = event.target.files[0];
+
+    if (file) {
+      if (file.type === "image/jpeg" || file.type === "image/png") {
+        const reader = new FileReader();
+
+        reader.onloadend = () => {
+          // reader.result contains the base64-encoded string
+          const base64String = reader.result;
+
+          setCityData({
+            ...cityData,
+            [event.target.name]: base64String,
+          });
+        };
+
+        reader.readAsDataURL(file);
+      } else {
+        setCityData({
+          ...cityData,
+          [event.target.name]: "",
+        });
+        document.getElementById(event.target.name).value = "";
+        toast.error("Unsupported file type. Please choose a JPG or PNG image.");
+      }
+    }
+  };
+
+  const handleFileChange = (event) => {
+    const file = event.target.files[0];
+    const maxSizeInBytes = 1024 * 1024 * 1024 * 10; // 10GB Limit
+    if (file && file.size > maxSizeInBytes) {
+      alert("File size exceeds the limit (10MB)");
+      return;
+    }
+    if (file) {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const fileContent = e.target.result;
+        try {
+          console.log("step4" + event.target.name);
+          const jsonData = JSON.parse(fileContent);
+          setCityData({
+            ...cityData,
+            [event.target.name]: jsonData,
+            // placesToVisit : file?.name
+          });
+        } catch (error) {
+          console.error("Error parsing JSON file:", error);
+        }
+      };
+
+      reader.readAsText(file);
+    }
   };
 
   return (
@@ -133,21 +213,31 @@ const AdminAddCity = () => {
             {/*  */}
             <div class="form-field col-lg-6 ">
               <input
+                onChange={handleImageChange}
+                type="file"
+                className="form-control input-text js-input"
                 id="img"
-                class="input-text js-input"
-                type="text"
+                placeholder=""
                 name="img"
-                value={cityData.img}
-                onChange={handleInputChange}
+                // value={cityData.img}
+                required
               />
               <label class="label" for="img">
                 City Image
               </label>
             </div>
             <div class="form-field col-lg-6 ">
-              <input id="places" class="input-text js-input" type="text" />
+              <input
+                type="file"
+                className="form-control input-text js-input"
+                id="placesToVisit"
+                accept=".json"
+                onChange={handleFileChange}
+                multiple={false}
+                name="placesToVisit"
+              />
               <label class="label" for="places">
-                Places to Visit
+                Places to Visit ( json )
               </label>
             </div>
             {/*  */}

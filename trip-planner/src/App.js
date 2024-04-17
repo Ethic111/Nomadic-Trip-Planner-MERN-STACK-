@@ -15,7 +15,7 @@ import Planner from "./components/Planner/Planner";
 import PasswordReset from "./components/PasswordReset/PasswordReset";
 import AdminLogin from "./components/Admin/AdminLogin";
 import AdminDashboard from "./components/Admin/AdminDashboard";
-// import AdminAddCity from "./components/Admin/AdminAddCity";
+import AdminAddCity from "./components/Admin/AdminAddCity";
 // import AdminMain from "./components/Admin/AdminMain";
 // import AdminCities from "./components/Admin/AdminCities";
 
@@ -164,7 +164,7 @@ export default function App() {
                 </>
               }
             ></Route> */}
-            {/* <Route
+            <Route
               exact
               path="/admin/addcity"
               element={
@@ -172,7 +172,7 @@ export default function App() {
                   <AdminAddCity />
                 </>
               }
-            ></Route> */}
+            ></Route>
           </Routes>
         </AuthContextProvider>
       </BrowserRouter>
