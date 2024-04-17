@@ -111,7 +111,7 @@ function Planner(props) {
   }
 
   function add(id) {
-    const inputValue = window.prompt('Enter a value:');
+    const inputValue = window.prompt('Enter the number of day :');
     if ('1' === inputValue) {
       const filtered_array = available.filter((ele) => { if (ele._id !== id) { return true; } else { const updatedAvaialable = [...day1, ele]; setDay1(updatedAvaialable); } })
       setavailable(filtered_array)
@@ -321,7 +321,7 @@ function Planner(props) {
             })}
             <hr></hr>
 
-            Day 3:
+           <h2> Day 3: </h2>
             <hr></hr>
 
             {day3.map((place) => {

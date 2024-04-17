@@ -74,14 +74,25 @@ function AdminDashboard() {
 
   return (
     <>
-      <Link to="/">
-        <div class="d-flex justify-content-between align-items-center adminlogout">
+     
+        <div className="d-flex justify-content-between align-items-center adminlogout mb-4">
+        <div >
+          <span className="addnewcitytxt">Add New City</span>
+          <Link to="/admin/addcity">
+            <button style={{ marginTop: "15px" }} className="addnewcitybtn">Add</button>
+          </Link>
+        </div>
+        <Link to="/">
+        <div class="">
           <span class="ms-auto adminlogouttext">Logout</span>
           <i class="fa-solid fa-arrow-right-from-bracket adminlogouticon"></i>
         </div>
-      </Link>
+        </Link>
+        </div>
+     
+      <div class=""></div>
 
-      <div style={{ margin: "2rem" }}>
+      {/* <div style={{ margin: "2rem" }}>
         <div class="row justify-content-center">
           <div class="col-xl-2 col-md-5 mb-4" style={{ marginRight: "8rem" }}>
             <div class="card border-left-primary shadow h-100 py-2">
@@ -115,7 +126,6 @@ function AdminDashboard() {
                     <div class="h5 mb-0 font-weight-bold text-gray-800"></div>
                   </div>
                   <div class="col-auto">
-                    {/* <i class="fas fa-dollar-sign fa-2x text-gray-300"></i> */}
                     <i class="fas fa-solid fa-users fa-2x text-gray-300"></i>
                   </div>
                 </div>
@@ -156,7 +166,6 @@ function AdminDashboard() {
                     <div class="h5 mb-0 font-weight-bold text-gray-800"></div>
                   </div>
                   <div class="col-auto">
-                    {/* <i class="fas fa-comments fa-2x text-gray-300"></i> */}
                     <i class="fas fa-solid fa-indent fa-2x text-gray-300"></i>
                   </div>
                 </div>
@@ -164,7 +173,7 @@ function AdminDashboard() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* <hr /> */}
       <div className="row m-2">
@@ -221,7 +230,7 @@ function AdminDashboard() {
                   </div>
                 </td>
                 <td>
-                  <div type="text" className="inputdiv">
+                  {/* <div type="text" className="inputdiv">
                     <input
                       style={{ width: "56.5rem" }}
                       className="trtext"
@@ -229,7 +238,7 @@ function AdminDashboard() {
                       //   value={filters.name}
                       //   onChange={handleFilterInputChange}
                     />
-                  </div>
+                  </div> */}
                 </td>
                 <td></td>
                 <td></td>
