@@ -1,0 +1,48 @@
+
+    { "title" : "New Delhi",
+      "sub_title" : "Delhi NCR",
+      "description": "Delhi is officially both a Union Territory and City located in Northern India. It is the capital of India and a part of the National Capital Territory of Delhi (NCT).",
+      "img" : "https://i.ibb.co/cwY6Hnc/delhi.png"
+    }
+    { "title" : "GOA",
+      "sub_title" : "Beaches",
+      "description": "Goa is more than just a hand full of beaches and pumping parties. This is a cultural blend of sand, sun, spice, seafood and spirituality.",
+      "img" : "https://i.ibb.co/RSkqkng/beach-chair.png"
+    }
+    { "title" : "Agra",
+      "sub_title" : "Heritage City",
+      "description": "Agra - the city of Taj is the only city in India, which is home to one of the seven wonders of the world. Besides the Taj Mahal, it is home to various other magnificent Mughal monuments and Persian-styled gardens.",
+      "img" : "https://i.ibb.co/zhV3Rsv/taj-mahal.png"
+    }
+    { "title" : "Kochi",
+      "sub_title" : "City of Rivers",
+      "description": "Kochi is one of the cosmopolitan cities of Kerala which had come into limelight with its rich treasures of spices.",
+      "img" : "https://i.ibb.co/CBQRj31/kochi.png"
+    }
+    { "title" : "Mysore",
+      "sub_title" : "City of Artifacts",
+      "description": "The word Mysuru is a corrupted version of 'mysooru', which is derived from the word 'mahishur' or 'Mahishasurana Ooru', which means the town of Mahishasura in Kannada, the local language.",
+      "img" : "https://i.ibb.co/pfJ10zf/mysore.png"
+    }
+    { "title" : "Shimla",
+    "sub_title" : "City of Visitors",
+    "description": "Shimla is a pleasing hill town located at 2200 m above mean sea level, in the state of Himachal Pradesh. Shimla is a famous summer retreat since the colonial era. ",
+    "img" : "https://i.ibb.co/7nDKgQ6/shimla.png"
+  }
+    { "title" : "Mumbai",
+      "sub_title" : "City of Richness",
+      "description": "Mumbai - the city of dreams inspires every resident to dream big and work for it. It is one of the largest cities in India, which is considered as the financial, commercial and entertainment capital of India.",
+      "img" : "https://i.ibb.co/hfJSnXc/goi.png"
+    }
+    { "title" : "Jaipur",
+      "sub_title" : "The Pink City",
+      "description": "Jaipur, also known as the pink city, is one of the most beautiful and culturally rich cities in India. It was founded by Maharaja Sawai Jai Singh II in November 1727.",
+      "img" : "https://i.ibb.co/9qsV8Mt/jaipur.png"
+    }
+  
+    { "title" : "Sikkim",
+      "sub_title" : "Delhi NCR",
+      "description": "Sikkim, state in India,is located in the northeastern part of the country, in the eastern Himalayas. It is one of the smallest states in India.",
+      "img" : "https://i.ibb.co/kxW7J3V/Sikkim.png"
+    }
+    

@@ -1,0 +1,37 @@
+{   "cityname": "New Delhi",
+    "Day1" : [
+    
+        {   
+            "place_image" : "https://i.ibb.co/bRr4WLb/delhi-haat.jpg",
+            "place_name" : "Delhi Haat INA",
+            "description": "The DILLI HAAT provides the ambience of a traditional Rural Haat or village market, but one suited for more contemporary needs.",
+            "place_time" : "3 hours "
+        },
+        {
+            "place_name": "India Gate",
+            "place_image": "https://i.ibb.co/N7HM1D2/india-gate.jpg",
+            "place_time": "1hr",
+            "description": "The DILLI HAAT provides the ambience of a traditional Rural Haat or village market, but one suited for more contemporary needs."
+            
+          },
+        {
+            
+            "place_name": "Lotus Temple",
+            "place_image": "https://i.ibb.co/QdHm1Dc/Lotus-Temple.jpg",
+            "description": "The DILLI HAAT provides the ambience of a traditional Rural Haat or village market, but one suited for more contemporary needs.",
+            "place_time": "3hr"
+            
+            
+          },
+          {
+         
+            "place_name": "Qutub Minar",
+            "place_image": "https://i.ibb.co/nfSGf85/Qutub-Minar.jpg",
+            "description": "The DILLI HAAT provides the ambience of a traditional Rural Haat or village market, but one suited for more contemporary needs.",
+            "place_time": "1.5hr"
+           
+          }
+]
+}
+
+

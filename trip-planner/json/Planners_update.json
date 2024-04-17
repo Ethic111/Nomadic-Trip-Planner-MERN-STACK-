@@ -1,0 +1,1638 @@
+[{
+  "_id": {
+    "$oid": "64f398f2cf2639d6ecbaba86"
+  },
+  "cityname": "New Delhi",
+  "Day1": [
+    {
+      "place_type": "Attraction",
+      "place_name": "India Gate",
+      "place_img": "https://i.ibb.co/N7HM1D2/india-gate.jpg",
+      "time": "1hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Qutub Minar",
+      "place_img": "https://i.ibb.co/nfSGf85/Qutub-Minar.jpg",
+      "rating": " ",
+      "time": "1.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Lotus Temple",
+      "place_img": "https://i.ibb.co/QdHm1Dc/Lotus-Temple.jpg",
+      "rating": " ",
+      "time": "3hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Akshardham Temple",
+      "place_img": "https://i.ibb.co/m8n6PW8/Akshardham-Temple.jpg",
+      "rating": " ",
+      "time": "3.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day2": [
+    {
+      "place_type": "Attraction",
+      "place_name": "Red Fort",
+      "place_img": "https://i.ibb.co/FmJwKFp/Red-Fort.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Humanyun's Tomb",
+      "place_img": "https://i.ibb.co/MZ976rQ/Humayun-s-Tomb.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Lodhi Garden",
+      "place_img": "https://i.ibb.co/nMCKMZV/lobdhi-garden.jpg",
+      "rating": " ",
+      "time": "1.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Chandni Chowk",
+      "place_img": "https://i.ibb.co/B2Y8Q6F/chandni-chowk.jpg",
+      "rating": " ",
+      "time": "3hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day3": [
+    {
+      "place_type": "Attraction",
+      "place_name": "Rashtrapati Bhavan",
+      "place_img": "https://i.ibb.co/G5pd4dv/Rashtrapati-Bhavan.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Gurudwara Bangla Sahib",
+      "place_img": "https://i.ibb.co/fv4FRtm/Gurudwara-Bangla-Sahib.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Gandhi Smriti",
+      "place_img": "https://i.ibb.co/K09ZLZq/Gandhi-Smriti.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "ISKCON Temple",
+      "place_img": "https://i.ibb.co/r4sDD7R/Iskcon-Temple-Delhi.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64f398f2cf2639d6ecbaba87"
+  },
+  "cityname": "Mumbai ",
+  "Day1": [
+    {
+      "place_type": "Attraction",
+      "place_name": "Gateway of India",
+      "place_img": "https://i.ibb.co/4SJC49s/Gateway-of-India.jpg",
+      "time": "1hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Marine Drive",
+      "place_img": "https://i.ibb.co/bbVQ64p/Marine-Drive.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Chhatrapati Shivaji Terminus (CST)",
+      "place_img": "https://i.ibb.co/WHmbDRT/Chhatrapati-Shivaji-Terminus.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Elephanta Caves",
+      "place_img": "https://i.ibb.co/Bf0SqwT/elephanta-caves.jpg",
+      "rating": " ",
+      "time": "3.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day2": [
+    {
+      "place_type": "Attraction",
+      "place_name": "Chowpatty Beach",
+      "place_img": "https://i.ibb.co/VBqpwQ1/Chowpatty-Beach.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Bandra-Worli Sea Link",
+      "place_img": "https://i.ibb.co/3BMJpJY/Bandra-Worli-Sea-Link.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Shree Siddhivinayak",
+      "place_img": "https://i.ibb.co/yhZsmPf/Shree-Siddhivinayak.webp",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Colaba",
+      "place_img": "https://i.ibb.co/r6fDfz2/Colaba.jpg",
+      "rating": " ",
+      "time": "1.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day3": [
+    {
+      "place_type": "Attraction",
+      "place_name": "Global Vipassana Pagoda",
+      "place_img": "https://i.ibb.co/xSY2VJT/Global-Vipassana-Pagoda.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Kanheri Caves",
+      "place_img": "https://i.ibb.co/Msw32sd/Kanheri-Caves.jpg",
+      "rating": " ",
+      "time": "2.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "KidZania Mumbai",
+      "place_img": "https://i.ibb.co/6wYvqX6/Kid-Zania-Mumbai.jpg",
+      "rating": " ",
+      "time": "4hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Mani Bhavan Gandhi Museum",
+      "place_img": "https://i.ibb.co/JszvrWL/Mani-Bhavan-Gandhi-Museum.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64f398f2cf2639d6ecbaba88"
+  },
+  "cityname": "Goa",
+  "Day1": [
+    {
+      "place_type": "Attraction",
+      "place_name": "Baga Beach",
+      "place_img": "https://i.ibb.co/rMfxw1Y/Baga-Beach.jpg",
+      "time": "1.5hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Calangute Beach",
+      "place_img": "https://i.ibb.co/YL4D4z0/Calangute-Beach.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Old Goa",
+      "place_img": "https://i.ibb.co/8KhGx1t/Old-Goa.jpg",
+      "rating": " ",
+      "time": "2.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Dudhsagar Waterfalls",
+      "place_img": "https://i.ibb.co/ZzXcYxv/Dudhsagar-Waterfalls.jpg",
+      "rating": " ",
+      "time": "3.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day2": [
+    {
+      "place_type": "Attraction",
+      "place_name": "Anjuna Flea Market",
+      "place_img": "https://i.ibb.co/kxB97Dp/Anjuna-Flea-Market.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Aguada Fort",
+      "place_img": "https://i.ibb.co/1vPRXDy/Aguada-Fort.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Palolem Beach",
+      "place_img": "https://i.ibb.co/JBN0jSn/Palolem-Beach.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Basilica of Bom Jesus",
+      "place_img": "https://i.ibb.co/Q8ZcMkt/Basilica-of-Bom-Jesus.jpg",
+      "rating": " ",
+      "time": "1.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day3": [
+    {
+      "place_type": "Attraction",
+      "place_name": "Deltin Royale",
+      "place_img": "https://i.ibb.co/jTwTZL1/Deltin-Royale.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Colva Beach",
+      "place_img": "https://i.ibb.co/0cKLM5f/Colva-Beach.jpg",
+      "rating": " ",
+      "time": "2.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Fontainhas",
+      "place_img": "https://i.ibb.co/1GZprNK/Fontainhas.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Anjuna Market",
+      "place_img": "https://i.ibb.co/kxB97Dp/Anjuna-Flea-Market.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64f398f2cf2639d6ecbaba89"
+  },
+  "cityname": "Agra",
+  "Day1": [
+    {
+      "place_type": "Attraction",
+      "place_name": "Taj Mahal",
+      "place_img": "https://i.ibb.co/3NpKk3J/Taj-Mahal.jpg",
+      "time": "2.5hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Agra Fort",
+      "place_img": "https://i.ibb.co/4WTdN7t/Agra-Fort.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Fatehpur Sikri",
+      "place_img": "https://i.ibb.co/SmZHbs8/Fatehpur-Sikri.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Mehtab Bagh",
+      "place_img": "https://i.ibb.co/chLTq8J/Mehtab-Bagh.jpg",
+      "rating": " ",
+      "time": "3.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day2": [
+    {
+      "place_type": "Attraction",
+      "place_name": "Itmad-ud-Daulah's Tomb",
+      "place_img": "https://i.ibb.co/vVrt57x/Itmad-ud-Daulah-s-Tomb.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Akbar's Tomb, Sikandra",
+      "place_img": "https://i.ibb.co/FKNqtgY/Akbar-s-Tomb-Sikandra.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Wildlife SOS",
+      "place_img": "https://i.ibb.co/Yc33bD5/Wildlife-SOS.jpg",
+      "rating": " ",
+      "time": "3hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Agra Art Gallery",
+      "place_img": "https://i.ibb.co/dphQr3y/Agra-Art-Gallery.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day3": [
+    {
+      "place_type": "Attraction",
+      "place_name": "Sheesh Mahal",
+      "place_img": "https://i.ibb.co/VQPSV3K/Sheesh-Mahal.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Mother Teresa's Missionaries of Charity",
+      "place_img": "https://i.ibb.co/5Bds8XC/Mother-Teresa-s-Missionaries-of-Charity.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Jama Masjid",
+      "place_img": "https://i.ibb.co/jJmtWWd/Jama-Masjid.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Anguri Bagh",
+      "place_img": "https://i.ibb.co/TW0kMXT/Anguri-Bagh.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64f398f2cf2639d6ecbaba8a"
+  },
+  "cityname": "Mysore",
+  "Day1": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "4300",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Mysore Palace",
+      "place_img": "https://i.ibb.co/4RV5y5L/Mysore-Palace.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Chamundi Hill",
+      "place_img": "https://i.ibb.co/0QSJkvv/Chamundi-Hill.webp",
+      "rating": " ",
+      "time": "2.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Brindavan Gardens",
+      "place_img": "https://i.ibb.co/cvj56TV/Brindavan-Gardens.jpg",
+      "rating": " ",
+      "time": "2.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "St. Philomena's Church",
+      "place_img": "https://i.ibb.co/SJqcQbB/St-Philomena-s-Church.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day2": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "4300",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Mysore Zoo",
+      "place_img": "https://i.ibb.co/2NKtmvS/Mysore-Zoo.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Devaraja Market",
+      "place_img": "https://i.ibb.co/BCnNvDx/Devaraja-Market.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Jaganmohan Palace",
+      "place_img": "https://i.ibb.co/zrCk06p/Jaganmohan-Palace.jpg",
+      "rating": " ",
+      "time": "1.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Rail Museum",
+      "place_img": "https://i.ibb.co/55BLvx3/Rail-Museum.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day3": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "4300",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Philomena's Cathedral",
+      "place_img": "https://i.ibb.co/X50PYtK/Philomena-s-Cathedral.webp",
+      "time": "1hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Oriental Research Institute",
+      "place_img": "https://i.ibb.co/9wkx7fD/Oriental-Research-Institute.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Ranganathittu Bird Sanctuary",
+      "place_img": "https://i.ibb.co/QbH5cbY/Ranganathittu-Bird-Sanctuary.webp",
+      "rating": " ",
+      "time": "1.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "GRS Fantasy Park",
+      "place_img": "https://i.ibb.co/9YPx06T/GRS-Fantasy-Park.jpg",
+      "rating": " ",
+      "time": "3.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64f398f2cf2639d6ecbaba8b"
+  },
+  "cityname": "Jaipur",
+  "Day1": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "6000",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Hawa Mahal",
+      "place_img": "https://i.ibb.co/sRz08Cz/Hawa-Mahal.webp",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Amber Fort",
+      "place_img": "https://i.ibb.co/L0m0Pzf/Amber-Fort.jpg",
+      "rating": " ",
+      "time": "2.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "City Palace",
+      "place_img": "https://i.ibb.co/fkNwnzP/City-Palace.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Jantar Mantar",
+      "place_img": "https://i.ibb.co/HdfdCZ2/Jantar-Mantar.jpg",
+      "rating": " ",
+      "time": "1.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day2": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "6000",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Nahargarh Fort",
+      "place_img": "https://i.ibb.co/59cgSZf/Nahargarh-Fort.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Albert Hall Museum",
+      "place_img": "https://i.ibb.co/3drdGP3/Albert-Hall-Museum.jpg",
+      "rating": " ",
+      "time": "2.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "EleSafari",
+      "place_img": "https://i.ibb.co/yFCC50C/Ele-Safari.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Rajasthan Small Scale Cottage Industry",
+      "place_img": "https://i.ibb.co/PG8Djp2/Rajasthan-Small-Scale-Cottage-Industry.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day3": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "6000",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Anokhi Musuem Hand Printing",
+      "place_img": "https://i.ibb.co/jWw9Snv/Anokhi-Musuem-Hand-Printing.jpg",
+      "time": "1.5hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Jal Mahal",
+      "place_img": "https://i.ibb.co/KKk6wWy/Jal-Mahal.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Monkey Temple",
+      "place_img": "https://i.ibb.co/Pg1Pbmq/Monkey-Temple.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "World Trade Park",
+      "place_img": "https://i.ibb.co/wYdJTFh/World-Trade-Park.jpg",
+      "rating": " ",
+      "time": "3.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64f398f2cf2639d6ecbaba8c"
+  },
+  "cityname": "Shimala",
+  "Day1": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "6500",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "The Ridge",
+      "place_img": "https://i.ibb.co/BP5wQVM/The-Ridge.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Mall Road",
+      "place_img": "https://i.ibb.co/dmzyLNx/Mall-Road.jpg",
+      "rating": " ",
+      "time": "4hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Jakhoo Temple",
+      "place_img": "https://i.ibb.co/VH88vCz/Jakhoo-Temple.jpg",
+      "rating": " ",
+      "time": "2.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Summer Hill",
+      "place_img": "https://i.ibb.co/dryjfM7/Summer-Hill.jpgs",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day2": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "6500",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Shimla State Museum",
+      "place_img": "https://i.ibb.co/SJ415tt/Shimla-State-Museum.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Annandale",
+      "place_img": "https://i.ibb.co/JxVKYm4/Annandale.jpg",
+      "rating": " ",
+      "time": "1.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "The Scandal Point, Ridge",
+      "place_img": "https://i.ibb.co/p0JzBwh/The-Scandal-Point-Ridge.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Naldhera and Shaily Peak",
+      "place_img": "https://i.ibb.co/vZJ0qPD/Naldhera-and-Shaily-Peak.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day3": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "6500",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Chadwick Falls",
+      "place_img": "https://i.ibb.co/Ss4ypRF/Chadwick-Falls.jpg",
+      "time": "1.5hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Johnnie's Wax Museum",
+      "place_img": "https://i.ibb.co/k9njyhc/Johnnie-s-Wax-Museum.jpg",
+      "rating": " ",
+      "time": "3hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Himalayan Bird Park",
+      "place_img": "https://i.ibb.co/CvTFKR4/Himalayan-Bird-Park.jpg",
+      "rating": " ",
+      "time": "3hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Tara Devi Temple",
+      "place_img": "https://i.ibb.co/xCwsdXg/Tara-Devi-Temple.jpg",
+      "rating": " ",
+      "time": "1.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64f398f2cf2639d6ecbaba8d"
+  },
+  "cityname": "Kochi",
+  "Day1": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "3679",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Fort Kochi",
+      "place_img": "https://i.ibb.co/KrwzPPY/Fort-Kochi.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Mattancherry Palace (Dutch Palace)",
+      "place_img": "https://i.ibb.co/b6FctrY/Mattancherry-Palace-Dutch-Palace.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Jew Town and Synagogues",
+      "place_img": "https://i.ibb.co/2N0R6dp/Jew-Town-and-Synagogues.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Chinese Fishing Nets",
+      "place_img": "https://i.ibb.co/g7C6Yyy/Chinese-Fishing-Nets.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day2": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "3679",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Hill Palace Museum",
+      "place_img": "https://i.ibb.co/jGdNLSt/Hill-Palace-Museum.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Cherai Beach",
+      "place_img": "https://i.ibb.co/bP9pDGj/Cherai-Beach.jp",
+      "rating": " ",
+      "time": "1.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Marine Drive",
+      "place_img": "https://i.ibb.co/4jWTJ8J/Marine-Drive-Kochi.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Kodanad Elephant Sanctuary",
+      "place_img": "https://i.ibb.co/qgGz5Rm/Kodanad-Elephant-Sanctuary.jpg",
+      "rating": " ",
+      "time": "3hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day3": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "3679",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Veeranpuzha Beach",
+      "place_img": "https://i.ibb.co/mGrbb8p/Veeranpuzha-Beach.jpg",
+      "time": "1hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Kerala Folklore Museum",
+      "place_img": "https://i.ibb.co/mNxBCnF/Kerala-Folklore-Museum.jp",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Ernakulathappan Temple",
+      "place_img": "https://i.ibb.co/z5trb7T/Ernakulathappan-Temple.jpg",
+      "rating": " ",
+      "time": "1hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Chottanikkara Temple",
+      "place_img": "https://i.ibb.co/MfnsHh7/Chottanikkara-Temple.jpg",
+      "rating": " ",
+      "time": "1.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64f398f2cf2639d6ecbaba8e"
+  },
+  "cityname": "Ahmedabad",
+  "Day1": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "4100",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Sabarmati Palace",
+      "place_img": "https://i.ibb.co/znVvM5d/Sabarmati-Palace.webp",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Adalaj Stepwell",
+      "place_img": "https://i.ibb.co/gm5Pxmf/Adalaj-Stepwell.jpg",
+      "rating": " ",
+      "time": "2.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Sidi Saiyyed Mosque",
+      "place_img": "https://i.ibb.co/JQ9p97V/Sidi-Saiyyed-Mosque.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Kankaria Lake",
+      "place_img": "https://i.ibb.co/1zWjgM4/Kankaria-Lake.jpg",
+      "rating": " ",
+      "time": "1.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day2": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "4100",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Calico Museum of Textiles",
+      "place_img": "https://i.ibb.co/whPGh5v/Calico-Museum-of-Textiles.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Gandhi Ashram",
+      "place_img": "https://i.ibb.co/jHJbDMg/Gandhi-Ashram.jpg",
+      "rating": " ",
+      "time": "2.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Auto World Vintage Car Museum",
+      "place_img": "https://i.ibb.co/2gf2VC3/Auto-World-Vintage-Car-Museum.webp",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Gujarat Science City",
+      "place_img": "https://i.ibb.co/hKdBmKQ/Gujarat-Science-City.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day3": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "4100",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Hare Krishna Mandir",
+      "place_img": "https://i.ibb.co/bFr8vcC/Hare-Krishna-Mandir.jpg",
+      "time": "1.5hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Shree Camp Hanuman Mandir",
+      "place_img": "https://i.ibb.co/7KvmLGv/Shree-Camp-Hanuman-Mandir.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Vaishnodevi Temple",
+      "place_img": "https://i.ibb.co/b3wLYSr/Vaishnodevi-Temple.jpg",
+      "rating": " ",
+      "time": "1.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Vikram Sarabhai Space Exhibition",
+      "place_img": "https://i.ibb.co/PxFRk5H/Vikram-Sarabhai-Space-Exhibition.jpg",
+      "rating": " ",
+      "time": "3hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64f398f2cf2639d6ecbaba8f"
+  },
+  "cityname": "Sikkim",
+  "Day1": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "3600",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Gangtok",
+      "place_img": "https://i.ibb.co/nwK3WBL/Gangtok.jpg",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Tsomgo Lake",
+      "place_img": "https://i.ibb.co/bPNMQrx/Tsomgo-Lake.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Yumthang Valley",
+      "place_img": "https://i.ibb.co/bB5wJbw/Yumthang-Valley.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Pelling",
+      "place_img": "https://i.ibb.co/0htR7VS/Pelling.jpg",
+      "rating": " ",
+      "time": "1.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day2": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "3600",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Ravangla",
+      "place_img": "https://i.ibb.co/NVYvCtJ/Ravangla.webp",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Nathula Pass",
+      "place_img": "https://i.ibb.co/y0FCyc2/Nathula-Pass.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Gurudongmar Lake",
+      "place_img": "https://i.ibb.co/42BJMJt/Gurudongmar-Lake.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Lachung",
+      "place_img": "https://i.ibb.co/dL24SV8/Lachung.jpg",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ],
+  "Day3": [
+    {
+      "place_type": "Accomodation",
+      "place_name": "Capital O 89586 Hotel Canada Palace & Banquet",
+      "place_img": "https://i.ibb.co/z2cWbXZ/hotel.webp",
+      "rating": "⭐⭐⭐",
+      "time": "1hr",
+      "price": "3600",
+      "icon": "fas fa-regular fa-house-chimney",
+      "icon_color": "brown",
+      "icon_bgcolor": "blanchedalmond"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Tashiding Monastery",
+      "place_img": "https://i.ibb.co/k40J5dy/Tashiding-Monastery.webp",
+      "time": "2hr",
+      "rating": " ",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Tso Lhamo lake",
+      "place_img": "https://i.ibb.co/80cZ3sX/Tso-Lhamo-lake.webp",
+      "rating": " ",
+      "time": "2hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Goecha La",
+      "place_img": "https://i.ibb.co/pwrTs48/Goecha-La.jpg",
+      "rating": " ",
+      "time": "1.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    },
+    {
+      "place_type": "Attraction",
+      "place_name": "Yuksom",
+      "place_img": "https://i.ibb.co/tZSnkBP/Yuksom.jpg",
+      "rating": " ",
+      "time": "2.5hr",
+      "price": " ",
+      "icon": "fas fa-solid fa-camera-retro",
+      "icon_color": "black",
+      "icon_bgcolor": "rgb(121, 232, 121)"
+    }
+  ]
+}]

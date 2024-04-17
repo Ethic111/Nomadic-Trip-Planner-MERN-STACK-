@@ -1,0 +1,482 @@
+.blog_main_container {
+  margin-top: 100px;
+}
+
+.blog_img {
+  -webkit-tap-highlight-color: transparent;
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog_img:hover {
+  transform: scale(1);
+}
+.blog_start {
+  /* background-image: url(https://theworldtravelguy.com/wp-content/uploads/2021/07/DSCF4546-2_1920.jpg); */
+  background-image: url(https://i.ibb.co/ZHLgCwF/blog4.jpg);
+  /* background-image: url(); */
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-color: #727272;
+  min-width: 100%;
+  min-height: 100%;
+  transition-duration: 10s;
+  margin-top: -1%;
+  margin-bottom: 40px;
+}
+.blog_start p {
+  font-size: 15px;
+  font-family: "Merriweather-LightItalic";
+  /* width: 72%; */
+}
+
+.blog_heading {
+  color: #0059b2;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 3px;
+  word-wrap: break-word;
+  font-family: "Playfair Display";
+  transition: all 0.25s linear;
+  padding-top: 3px;
+  font-style: normal;
+}
+.blog_heading:hover {
+  color: #ae8d59;
+}
+.blog_btn {
+  text-decoration: none;
+  word-wrap: break-word;
+  justify-content: space-between;
+  color: #ff5a00;
+}
+
+.blog_img1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 91%;
+  object-fit: fill;
+}
+.blog_img1:hover {
+  /* transform: translateY(-10px); */
+  transform: scale(1);
+}
+.blog_content1 {
+  width: 52%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #041d2e;
+  background-color: white;
+  font-family: arial;
+  margin-right: 200px;
+  height: 80%;
+  padding: 14px 48px 10px 55px;
+  border-radius: 10px;
+  word-wrap: break-word;
+  display: block;
+}
+
+.blog_card {
+  justify-content: center;
+  border-bottom: 2px solid black;
+  overflow: hidden;
+  margin: 4px;
+  padding: 10px 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  flex-direction: row-reverse;
+}
+.blog_card:hover {
+  transform: translateY(-10px);
+}
+
+.blog_card:nth-child(odd) {
+  background: #fff;
+}
+.flex-row {
+  display: flex;
+  justify-self: flex-end;
+  /* width: 50%; */
+}
+.flex-child-element1 {
+  height: 100%;
+  overflow: hidden;
+  width: 72%;
+  word-wrap: break-word;
+  padding: 15px 40px 10px 55px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.flex-child-element2 {
+  flex-grow: 1;
+  width: 20%;
+  background-color: #e0e0e0;
+}
+
+.flex-child-element2 h2 {
+  margin: 0 0 20px;
+  font-size: 18px;
+  color: #2e3541;
+  font-family: "Merriweather-Regular";
+  background: #fff;
+  padding-bottom: 5px;
+}
+@media (max-width: 567px) {
+  .flex-child-element2 {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 567px) {
+  .flex-child-element1 {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+.blog_photo {
+  height: 50px;
+  width: 60px;
+  float: right;
+}
+
+/* .whitebg {
+    background: #fff;
+    position: relative;
+    width: 93%;
+    margin: -85px auto 0;
+    padding: 35px 25px;
+} */
+
+.bloglink {
+  border-top: 1px solid #e4e5e6;
+  border-bottom: 1px solid #e4e5e6;
+  position: relative;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.blog_container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  /* padding-left: 295px; */
+  padding-left: auto;
+}
+
+.left_link {
+  padding: 7px;
+  margin: 9px;
+}
+
+@media (max-width: 567px) {
+  .left_link {
+    overflow: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .left_link_li > a {
+    color: #384a50;
+    /* display: inline-block; */
+    display: none;
+    padding: 0px 9px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .left_link_li {
+    padding: 0px 12px;
+  }
+  .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1199px) {
+  .left_link_li {
+    padding: 0px 6px;
+  }
+}
+
+.left_link_li {
+  padding: 0px 14px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.left_link_li {
+  list-style: none;
+  padding: -6px;
+  margin: 0;
+  padding-right: 5px;
+  padding-left: 25px;
+}
+
+.menu-list {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  font-weight: "Merriweather-Regular";
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.left_link_a {
+  /* padding: 17px 0px; */
+  font-size: 20px;
+  color: #ff5a00;
+  font-family: "Merriweather-Regular";
+  display: block;
+}
+.left_link_a:hover {
+  /* padding: 17px 0px; */
+  font-size: 20px;
+  color: #384a50;
+  font-family: "Merriweather-Regular";
+  display: block;
+}
+
+.blog_search_div input[type="submit"],
+.blog_search_div1 input[type="submit"] {
+  background: url("https://i.ibb.co/m5YQXDR/search.png") no-repeat;
+  position: absolute;
+  right: 32px;
+  border-radius: 0 !important;
+  border: none;
+  background-position: center;
+  top: 3px;
+}
+
+.bloglink .search_div {
+  border: none;
+  background: none;
+  right: 0px;
+  top: 10px;
+  padding: 0px 10px;
+}
+.search_div {
+  border: none;
+  background: none;
+  top: 0px;
+  padding: 0px 10px;
+}
+.search_div {
+  top: 36px;
+  padding: 10px 10px;
+  height: auto;
+}
+.search_div,
+.search_div1 {
+  position: absolute;
+  right: 0px;
+  top: 54px;
+  display: block;
+  background: #fff;
+  padding: 26px 10px;
+  height: 85px;
+  border-bottom: 1px solid #f3f3f3;
+  z-index: 999;
+}
+.blog_input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  line-height: normal;
+  border-radius: 12px;
+  padding: 3px;
+  border: 1px solid #e0e0e0;
+  padding: 6px 11px;
+  border-radius: 30px;
+}
+
+.hentry {
+  margin: 20px 0 20px 2px;
+  padding-bottom: 15px;
+  text-align: center;
+  background: #fff;
+  -webkit-box-shadow: 0 0 3px 0 #c6c6c6;
+  -moz-box-shadow: 0 0 3px 0 #c6c6c6;
+  box-shadow: 0 0 3px 0 #c6c6c6;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+.hentry_description {
+  padding-bottom: 15px;
+  /* margin: 20px 0 20px 2px; */
+  /* margin-right: 15px; */
+  /* margin-left: 15px; */
+  margin-top: 48px;
+  text-align: left;
+  background: #fff;
+  /* -webkit-box-shadow: 0 0 3px 0 #c6c6c6; */
+  /* -moz-box-shadow: 0 0 3px 0 #c6c6c6; */
+  /* box-shadow: 0 0 3px 0 #c6c6c6; */
+  /* justify-content: center; */
+  position: relative;
+  /* width: 85%; */
+}
+/* .hentry-card
+{
+    margin: 12px 0 1px 2px;
+    padding: 2px 10px 0px 1px; 
+
+} */
+.blog_top1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.blog_top2 {
+  background-image: url(https://theworldtravelguy.com/wp-content/uploads/2021/07/DSCF4546-2_1920.jpg);
+  background-color: #727272;
+  background-size: cover;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-duration: 20s;
+  animation-duration: 20s;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 10s;
+  -o-transition-duration: 10s;
+  transition-duration: 10s;
+}
+.blog_top3 {
+  position: relative;
+  z-index: 50;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+}
+
+.blog_top {
+  margin: 0 auto;
+  max-width: 650px;
+  padding: 30px;
+  /* width: 100%; */
+  position: relative;
+  z-index: 10;
+  align-items: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 479px) {
+  .blog_top {
+    padding: 10px;
+  }
+}
+.blog_title {
+  color: #fff;
+}
+.blog_caption {
+  /* opacity: 1; */
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0 0 25px 0;
+  font-size: 15px;
+  font-family: "Merriweather-LightItalic";
+  width: 72%;
+  margin: 10px auto 0;
+}
+
+.blog_overplay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -o-transition-property: transform;
+  -webkit-transition-duration: 10s;
+  -o-transition-duration: 10s;
+  transition-duration: 10s;
+  background-color: #00000070;
+}
+.wrapper {
+  margin-bottom: 10px;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

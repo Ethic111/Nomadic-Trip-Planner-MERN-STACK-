@@ -1,0 +1,16 @@
+.adminlogouttext{
+    margin-top: 1rem;
+    margin-right: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #064497;
+}
+
+.adminlogouticon{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;  
+    text-decoration: none;
+   color: #064497;
+}

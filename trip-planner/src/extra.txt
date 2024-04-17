@@ -1,0 +1,2273 @@
+ Home page cards
+ <div className='card'>
+            <img src="https://i.ibb.co/jWrY1Nh/tajmahal.jpg" className='card_image' alt="Taj Mahal" />
+            <div className='card_body'>
+              <h1 className='card_title'>Taj Mahal</h1>
+              <p className='card_sub_title'><strong>One of the 7 Wonders</strong></p>
+              <p className='card_info'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente qui sit saepe libero expedita,</p>
+              <button className='card_btn'>Book Now</button>
+            </div>
+          </div>
+
+          <div className='card'>
+            <img src="https://i.ibb.co/h11rJVF/golden-temple.jpg" className='card_image' alt="Golden Temple" />
+            <div className='card_body'>
+              <h1 className='card_title'>Golden Temple</h1>
+              <p className='card_sub_title'><strong>A Gem to Watch</strong></p>
+              <p className='card_info'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente qui sit saepe libero expedita,</p>
+              <button className='card_btn'>Book Now</button>
+            </div>
+          </div>
+
+          <div className='card'>
+            <img src="https://i.ibb.co/M7JVY7q/north.jpg" className='card_image' alt="North India" />
+            <div className='card_body'>
+              <h1 className='card_title'>Shimla</h1>
+              <p className='card_sub_title'><strong>The Best Hill Station in India</strong></p>
+              <p className='card_info'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente qui sit saepe libero expedita,</p>
+              <button className='card_btn'>Book Now</button>
+            </div>
+          </div> 
+
+
+
+
+
+           {/* <form
+              
+              className={`proceed-form ${isSubmitMode ? "" : "hidden"}`}
+            >
+              <h2 class="title">Proceed Payment</h2>
+              <div class="input-field">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Username" />
+              </div>
+              <div class="input-field">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="Email" />
+              </div>
+              <div class="input-field">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" />
+              </div>
+              <input type="submit" class="btn" value="Back To Form" />
+
+            </form> */}
+
+
+
+             const tours_data = [
+  { title : "New Delhi",
+    sub_title : "Delhi NCR",
+    description: "New Delhi is the capital of India and a part of the National Capital Territory of Delhi (NCT).",
+    img : "https://i.ibb.co/cwY6Hnc/delhi.png"
+  },
+  { title : "GOA",
+    sub_title : "Beaches",
+    description: "New Delhi is the capital of India and a part of the National Capital Territory of Delhi (NCT).",
+    img : "https://i.ibb.co/RSkqkng/beach-chair.png"
+  },
+  { title : "Agra",
+    sub_title : "Heritage City",
+    description: "New Delhi is the capital of India and a part of the National Capital Territory of Delhi (NCT).",
+    img : "https://i.ibb.co/zhV3Rsv/taj-mahal.png"
+  },
+  { title : "Kochi",
+    sub_title : "City of Rivers",
+    description: "New Delhi is the capital of India and a part of the National Capital Territory of Delhi (NCT).",
+    img : "https://i.ibb.co/CBQRj31/kochi.png"
+  },
+  { title : "Mysore",
+    sub_title : "City of Artifacts",
+    description: "New Delhi is the capital of India and a part of the National Capital Territory of Delhi (NCT).",
+    img : "https://i.ibb.co/pfJ10zf/mysore.png"
+  },
+  { title : "Shimla",
+  sub_title : "City of Visitors",
+  description: "New Delhi is the capital of India and a part of the National Capital Territory of Delhi (NCT).",
+  img : "https://i.ibb.co/7nDKgQ6/shimla.png"
+},
+  { title : "Mumbai",
+    sub_title : "City of Richness",
+    description: "New Delhi is the capital of India and a part of the National Capital Territory of Delhi (NCT).",
+    img : "https://i.ibb.co/hfJSnXc/goi.png"
+  },
+  { title : "Jaipur",
+    sub_title : "The Pink City",
+    description: "New Delhi is the capital of India and a part of the National Capital Territory of Delhi (NCT).",
+    img : "https://i.ibb.co/9qsV8Mt/jaipur.png"
+  },
+
+  { title : "Sikkim",
+    sub_title : "Delhi NCR",
+    description: "New Delhi is the capital of India and a part of the National Capital Territory of Delhi (NCT).",
+    img : "https://i.ibb.co/kxW7J3V/Sikkim.png"
+  }
+  ]
+
+
+
+ // const home_card = home_data[0]
+  // Arrays of Objects ==> All data like Images, Content, etc..
+  // const cardData = [
+  //   {title: "Taj Mahal", url: "https://i.ibb.co/jWrY1Nh/tajmahal.jpg", subtitle:"One of the 7 Wonders", info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente qui sit saepe libero expedita"},
+
+  //   {title: "Golden Temple", url: "https://i.ibb.co/h11rJVF/golden-temple.jpg", subtitle:"A Gem to Watch", info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente qui sit saepe libero expedita"},
+
+  //   {title: "Shimla", url: "https://i.ibb.co/M7JVY7q/north.jpg", subtitle:"The Best Hill Station in India", info:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sapiente qui sit saepe libero expedita"},
+  // ]
+
+  // const exploreData = [
+  //   {title:"BACKPACKING ",url:"https://i.ibb.co/vdh103q/holiday.png"},
+  //   {title:"RELIGIOUS ",url:"https://i.ibb.co/rGVP8bN/temple.png"},
+  //   {title:"MONUMENTAL ",url:"https://i.ibb.co/hfJSnXc/goi.png"},
+  //   {title:"HIKING ",url:"https://i.ibb.co/71qsf7V/hiking.png"},
+  // ]
+
+  // const reviewData = [
+  //   {url : "https://i.ibb.co/NFD7mxk/e.jpg", review_content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. uos voluptate harum. Magni rerum nulla ex facilis aliquam non?" ,rating : "⭐⭐⭐⭐⭐"},
+
+  //   {url : "https://i.ibb.co/995LbFg/c.jpg", review_content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. uos voluptate harum. Magni rerum nulla ex facilis aliquam non?",rating : "⭐⭐⭐⭐"},
+
+  //   {url : "https://i.ibb.co/MVzCMJq/b.jpg", review_content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. uos voluptate harum. Magni rerum nulla ex facilis aliquam non?",rating : "⭐⭐⭐⭐"},
+
+  //   {url : "https://i.ibb.co/dL14kSY/a.jpg", review_content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. uos voluptate harum. Magni rerum nulla ex facilis aliquam non?",rating : "⭐⭐⭐"},
+
+  //   {url : "https://i.ibb.co/7pwNKhq/hero.jpg", review_content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. uos voluptate harum. Magni rerum nulla ex facilis aliquam non?",rating : "⭐⭐⭐⭐⭐"},
+
+  //   {url : "https://i.ibb.co/m6gMpj5/g.jpg", review_content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. uos voluptate harum. Magni rerum nulla ex facilis aliquam non?",rating : "⭐⭐⭐⭐"}
+  // ]
+
+    const cards = [
+    {
+      image: "https://i.ibb.co/N7HM1D2/india-gate.jpg",
+      title: "India Gate",
+      text: " A prominent war memorial located in the heart of the city, India Gate commemorates the soldiers who died during World War I. Surrounded by lush green lawns, it's a popular spot for picnics and evening strolls.",
+      category: "Attraction",
+    },
+    {
+      image: "https://i.ibb.co/cvj56TV/Brindavan-Gardens.jpg" ,
+      title: "Brindavan Gardens",
+      text: "During the British Raj in India, the area around the church was occupied by a huge flock of Britishers and Anglo-Indians. Since they were the followers of Christianity, they asked the government to build a place of worship for them.",
+      category: "Garden",
+    },
+    {
+      image:"https://i.ibb.co/MZ976rQ/Humayun-s-Tomb.jpg" ,
+      title: "Humayun's Tomb",
+      text: "Another UNESCO World Heritage Site, Humayun's Tomb is a precursor to the Taj Mahal and is the final resting place of the Mughal Emperor Humayun. Its beautiful Persian-style architecture and well-maintained gardens make it a serene escape.",
+      category: "Forts",
+    },
+    {
+      image: "https://i.ibb.co/QdHm1Dc/Lotus-Temple.jpg" ,
+      title: "Lotus Temple",
+      text: "Known for its unique lotus flower-inspired design, this Bahá'í House of Worship welcomes people of all religions and beliefs for meditation and prayer. Its peaceful ambiance and contemporary architecture are worth experiencing.",
+      category: "Temples",
+    },
+    {
+      image: "https://i.ibb.co/m8n6PW8/Akshardham-Temple.jpg",
+      title: "Akshardham Temple",
+      text: "This intricate and grand temple complex showcases traditional Indian architecture, art, and culture. The main monument features intricate carvings, and the complex also includes exhibitions, musical fountain shows, and gardens.",
+      category: "Temples",
+    },
+    {
+      image: "https://i.ibb.co/FmJwKFp/Red-Fort.jpg",
+      title: "Red Fort",
+      text: "Delhi, the capital of India has become a major tourist attraction over the years. The place has a vast history which is a major reason for a lot of people visiting the place. It is the heart of India.",
+      category: "Fort",
+    },
+    {
+      image: "https://i.ibb.co/4SJC49s/Gateway-of-India.jpg" ,
+      title: "Gateway of India",
+      text: ": A symbol of Mumbai's grandeur and history, the Gateway of India is an iconic monument that overlooks the Arabian Sea. Built during the British colonial era, this architectural marvel serves as a welcoming point for visitors and offers splendid views of the sea and the Taj Mahal Palace Hotel nearby.",
+      category: "Attraction",
+    },
+    {
+      image: "https://i.ibb.co/bbVQ64p/Marine-Drive.jpg" ,
+      title: "Marine Drive",
+      text: "Also known as the 'Queen's Necklace' due to the way the streetlights shimmer along the shoreline at night, Marine Drive is a picturesque promenade that stretches along the Arabian Sea. It's a favorite spot for locals and tourists alike, offering a serene escape from the city's hustle and bustle.",
+      category: "Beaches",
+    },
+    {
+      image: "https://i.ibb.co/WHmbDRT/Chhatrapati-Shivaji-Terminus.jpg",
+      title: "Chhatrapati Shivaji Terminus (CST):",
+      text: "A UNESCO World Heritage Site, CST is a historic railway station that boasts stunning Victorian Gothic architecture. Its intricate carvings, grand dome, and intricate details make it a captivating landmark and a testament to Mumbai's colonial past.",
+      category: "Heritage Site",
+    },
+    {
+      image: "https://i.ibb.co/bbVQ64p/Marine-Drive.jpg" ,
+      title: "Ajanta Ellora caves",
+      text: "Ajanta Caves exemplifies one of the greatest achievements in ancient Buddhist rock-cut architecture. The artistic traditions at Ajanta present an important and rare specimen of art, architecture, painting, and socio-cultural, religious and political history of contemporary society in India.",
+      category: "Attraction",
+    },
+    {
+      image: "https://i.ibb.co/xm1LpXd/Somanath-Temple.jpg" ,
+      title: "Shree Somnath Jyotirling Temple",
+      text: "The Somnath temple, also called Somanātha temple or Deo Patan, is a Hindu temple located in Prabhas Patan, Veraval in Gujarat, India. It is one of the most sacred pilgrimage sites for Hindus and is the first among the twelve jyotirlinga shrines of Shiva",
+      category: "Temples",
+    },
+    {
+      image: "https://i.ibb.co/CnxMy1X/Kamet.jpg" ,
+      title: "Kamet",
+      text: "Kamet is the second-highest mountain in the Garhwal region of Uttarakhand, India, after Nanda Devi. It lies in the Chamoli District of Uttarakhand. Its appearance resembles a giant pyramid topped by a flat summit area with two peaks.",
+      category: "Mountains",
+    },
+  ];
+
+
+   // const planner_data = [
+  //   {
+  //     place_type: "Accomodation",
+  //     place_name: "Capital O 89586 Hotel Canada Palace & Banquet",
+  //     place_img: "https://i.ibb.co/z2cWbXZ/hotel.webp",
+  //     rating: "⭐⭐⭐",
+  //     time: "1hr",
+  //     price: "3679",
+  //     icon: "fas fa-regular fa-house-chimney",
+  //     icon_color: "brown",
+  //     icon_bgcolor: "blanchedalmond",
+  //   },
+  //   {
+  //     place_type: "Attraction",
+  //     place_name: "Kankaria",
+  //     place_img: "https://i.ibb.co/FmtVXWw/kankaria.png",
+  //     time: "2hr",
+  //     rating: " ",
+  //     price: " ",
+  //     icon: "fas fa-solid fa-camera-retro",
+  //     icon_color: "black",
+  //     icon_bgcolor: "rgb(121, 232, 121)",
+  //   },
+  //   {
+  //     place_type: "Attraction",
+  //     place_name: "Science City",
+  //     place_img: "https://i.ibb.co/mvH6958/gujarat-science-city-1-1626372058.jpg",
+  //     rating: " ",
+  //     time: "1hr",
+  //     price: " ",
+  //     icon: "fas fa-solid fa-camera-retro",
+  //     icon_color: "black",
+  //     icon_bgcolor: "rgb(121, 232, 121)",
+  //   },
+  //   {
+  //     place_type: " ",
+  //     rating: " ",
+  //     time: " ",
+  //     price: " ",
+  //     icon: " ",
+  //     icon_color: " ",
+  //     icon_bgcolor: " ",
+  //     place_name: "Lunch Time",
+  //     place_img: "https://i.ibb.co/TYD3j7F/meal.png",
+  //   },
+  //   {
+  //     place_type: "Attraction",
+  //     place_name: "Auto World Vintage Car Museum",
+  //     place_img: "https://i.ibb.co/FgfPqXC/auto-vintage-museum.jpg",
+  //     rating: " ",
+  //     time: "1hr",
+  //     price: " ",
+  //     icon: "fas fa-solid fa-camera-retro",
+  //     icon_color: "black",
+  //     icon_bgcolor: "rgb(121, 232, 121)",
+  //   },
+  //   {
+  //     place_type: "Attraction",
+  //     place_name: "Balvatika And N.h. Museum",
+  //     place_img: "https://i.ibb.co/BPpfxRG/balvatika.jpg",
+  //     rating: " ",
+  //     time: "3hr",
+  //     price: " ",
+  //     icon: "fas fa-solid fa-camera-retro",
+  //     icon_color: "black",
+  //     icon_bgcolor: "rgb(121, 232, 121)",
+  //   },
+  //   {
+  //     place_type: " ",
+  //     rating: " ",
+  //     time: " ",
+  //     price: " ",
+  //     icon: " ",
+  //     icon_color: " ",
+  //     icon_bgcolor: " ",
+  //     place_name: "Dinner Time",
+  //     place_img: "https://i.ibb.co/qRG8xCK/dinner.png",
+  //   },
+  // ];
+  // const planner_data2 = [
+  //   {
+  //     place_type: "Accomodation",
+  //     place_name: "Capital O 89586 Hotel Canada Palace & Banquet",
+  //     place_img: "https://i.ibb.co/z2cWbXZ/hotel.webp",
+  //     rating: "⭐⭐⭐",
+  //     time: "1hr",
+  //     price: "INR 3679",
+  //   },
+  //   {
+  //     place_type: "Accomodation",
+  //     place_name: "Capital O 89586 Hotel Canada Palace & Banquet",
+  //     place_img: "https://i.ibb.co/z2cWbXZ/hotel.webp",
+  //     rating: "⭐⭐⭐",
+  //     time: "1hr",
+  //     price: "INR 3679",
+  //   },
+  //   {
+  //     place_type: "Accomodation",
+  //     place_name: "Capital O 89586 Hotel Canada Palace & Banquet",
+  //     place_img: "https://i.ibb.co/z2cWbXZ/hotel.webp",
+  //     rating: "⭐⭐⭐",
+  //     time: "1hr",
+  //     price: "INR 3679",
+  //   },
+  //   {
+  //     place_type: "Accomodation",
+  //     place_name: "Capital O 89586 Hotel Canada Palace & Banquet",
+  //     place_img: "https://i.ibb.co/z2cWbXZ/hotel.webp",
+  //     rating: "⭐⭐⭐",
+  //     time: "1hr",
+  //     price: "INR 3679",
+  //   },
+  // ];
+
+
+Form.js
+import React, { useEffect, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import axios from 'axios';
+import jsPDF from 'jspdf';
+
+import form_svg from "./form.svg";
+import payment_svg from "./payment.svg";
+import "./Form.css";
+
+import "swiper/css";
+import "swiper/css/effect-cards";
+
+
+import { EffectCards } from "swiper/modules";
+
+function Form() { 
+  const [isSubmitMode, setisSubmitMode] = useState(false);
+  const [displaymode, setDisplayMode] = useState("block");
+  const [visibility, visibilityMode] = useState("hidden");
+  const [day1, setDay1] = useState([])
+  const [day2, setDay2] = useState([])
+  const [day3, setDay3] = useState([])
+  const [cityname, setCity] = useState("")
+
+  const handleProceedClick = () => {
+    setisSubmitMode(true);
+    if (displaymode === "block") {
+      setDisplayMode("none");
+    } else {
+      setDisplayMode("block");
+    }
+    if (visibility === "visible") {
+      visibilityMode("hidden");
+    } else {
+      visibilityMode("visible");
+    }
+  };
+
+  const handleFormClick = () => {
+    setisSubmitMode(false);
+    if (displaymode === "block") {
+      setDisplayMode("none");
+    } else {
+      setDisplayMode("block");
+    }
+    if (visibility === "visible") {
+      visibilityMode("hidden");
+    } else {
+      visibilityMode("visible");
+    }
+  };
+
+  const [formdata, setformdata] = useState({});
+
+  const handlechange = (event) => {
+    const name = event.target.name;
+    const value = event.target.value;
+    setformdata({ ...formdata, [name]: value });
+  };
+
+  const [daysdata, setDaysData] = useState(day1);
+
+  const handleButton1 = () => {
+    setDaysData(day1);
+  };
+  const handleButton2 = () => {
+    setDaysData(day2);
+  };
+  const handleButton3 = () => {
+    setDaysData(day3);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Send POST request to server with the cityname
+    axios.post('http://localhost:3001/getplanner', { cityname })
+      .then(response => {
+        const { cityname, Day1, Day2, Day3 } = response.data;
+        setDay1(Day1);
+        setDay2(Day2);
+        setDay3(Day3);
+        setCity(cityname);
+        // setCombined([cityname,...Day1,...Day2,...Day3])
+      })
+      .catch(err => console.log(err))
+
+    // handleProceedClick();
+    window.location.href = '/planner';
+  }
+
+// ============================= PDF GENERATION CODE ==============================================
+  const generatePDF = () => {
+    const doc = new jsPDF();
+
+    // Set the maximum width and height for the content area
+    const maxWidth = doc.internal.pageSize.getWidth();
+    const maxHeight = doc.internal.pageSize.getHeight();
+
+    doc.setFontSize(24);
+    doc.text("Your trip to " + cityname , 20, 25)
+    doc.setFontSize(18)
+    doc.text(cityname+ ", India", 25, 40)
+
+
+    let daynum = 2;
+
+    const imgWidth = 80; // Set the desired width
+    const imgHeight = 40; // Set the desired height
+
+    let leftColumnX = 15;
+    let rightColumnX = 105;
+    // Initial Y position
+    let currentY = 60;
+
+    // Function to add an image with its description and handle pagination
+    const addImageWithDescription = (imageData, description) => {
+
+      // Calculate the height required for the text
+      const textHeight = doc.getTextDimensions(description).h;
+
+      // Check if adding the description exceeds the page height
+      if (currentY + textHeight + imgHeight > maxHeight) {
+        doc.addPage();
+        doc.text("Day " + daynum ,20,15)
+        currentY = 15; // Reset Y position for the new page
+        daynum++
+      }
+      // Add the image
+      doc.addImage(imageData, 'JPEG', leftColumnX,currentY + 10, imgWidth, imgHeight); // Adjust coordinates and dimensions as needed
+      doc.setFontSize(16);
+      // Add the description text
+      doc.text(rightColumnX, currentY + 20, description); // Adjust the Y coordinate as needed
+      doc.setFontSize(18);
+      // currentY += 90; // Adjust as needed based on your layout
+
+       // Update the Y position for the next element
+      currentY += Math.max(50, textHeight) + 10; // Adjust as needed based on your layout
+    };
+
+    // Iterate through your data (e.g., Day1) to add images with descriptions
+    doc.text("Day 1",20, 55)
+    day1.map((place, index) => {
+      const imageData = place.place_img;
+ 
+      const description = `Place: ${place.place_name}\nType: ${place.place_type}\nTime: ${place.time}\n`;
+
+      // Add the image with description
+      addImageWithDescription(imageData, description);
+    });
+    
+ 
+    day2.map((place, index) => {
+      const imageData = place.place_img;
+ 
+      const description = `Place: ${place.place_name}\nType: ${place.place_type}\nTime: ${place.time}\n`;
+
+      // Add the image with description
+      addImageWithDescription(imageData, description);
+    });
+
+    day3.map((place, index) => {
+      const imageData = place.place_img;
+ 
+      const description = `Place: ${place.place_name}\nType: ${place.place_type}\nTime: ${place.time}\n`;
+
+      // Add the image with description
+      addImageWithDescription(imageData, description);
+    });
+
+    // Save the PDF
+    doc.save(`${cityname}-travel-itinerary.pdf`);
+  }
+
+
+  return (
+    <>
+      <div className={`container ${isSubmitMode ? "proceed-mode" : ""}`}>
+        <div class="forms-container">
+          <div class="form_submit-proceed" style={{ display: displaymode }}>
+
+            <form className="submit-form " onSubmit={handleSubmit}>
+              <h2 class="title">Details</h2>
+              <div class="input-field">
+                <i class="fas fa-sharp fa-solid fa-city"></i>
+                <input
+                  type="text"
+                  placeholder="City Name"
+                  name="cityname"
+                  onChange={(e) => setCity(e.target.value)}
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <i class="fas fa-solid fa-user"></i>
+                <input
+                  type="number"
+                  placeholder="Number Of People"
+                  name="num_of_people"
+                  onChange={handlechange}
+                  required
+                />
+              </div>
+              <div>
+                <div className="main_start_end">
+                  <div className="start">
+                    Enter start date:
+                    <input
+                      class="inputField"
+                      type="date"
+                      id="date_picker"
+                      placeholder="Enter Date "
+
+                    />
+                  </div>
+                  <i
+                    class="fas fa-sharp fa-solid fa-arrow-right"
+                    id="start_end_arrow"
+                  ></i>
+                  <div className="end">
+                    Enter end date:
+                    <input
+                      class="inputField"
+                      type="date"
+                      id="date_picker"
+                      placeholder="Enter Date"
+
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="radio_transport">
+                <span className="both_radio">
+                  Do You Want Transport Facility:
+                  <input
+                    type="radio"
+                    name="transport"
+                    className="radio_1"
+                    onChange={handlechange}
+                    value="Yes"
+                  />
+                  Yes
+                  <input
+                    type="radio"
+                    name="transport"
+                    className="radio_2"
+                    onChange={handlechange}
+                    value="No"
+                  />
+                  No
+                </span>
+              </div>
+              <div className="hotel_dropdown">
+                <span>
+                  Select Hotel:
+                  <select
+                    className="stars_hotel_dropdown"
+                    name="rating"
+                    onChange={handlechange}
+                    required
+                  >
+                    <option selected hidden>
+                      <b>
+                        <i>--Select Ratings--</i>
+                      </b>
+                    </option>
+                    <option value="1 Star">😑 1 Star</option>
+                    <option value="2 Star">😐 2 Star</option>
+                    <option value="3 Star">🙂 3 Star</option>
+                    <option value="4 Star">😀 4 Star</option>
+                    <option value="5 Star">🤯 5 Star</option>
+                  </select>
+                </span>
+              </div>
+              <input type="submit" value="Submit" class="btn solid" />         
+            </form>
+          </div>
+          <div className="proceed-form" style={{ visibility: visibility }}>
+            <div className="planner_sub_container">
+              <div className="planner_button_container">
+                <button
+                  type="button"
+                  className="planner_day_button"
+                  onClick={handleButton1}
+                >
+                  <img src="https://i.ibb.co/7nk7bQ9/calendar-9.png" alt="day1" />
+                  Day1
+                </button>
+
+                <button
+                  type="button"
+                  className="planner_day_button"
+                  onClick={handleButton2}
+                >
+                  <img src="https://i.ibb.co/JQ055tb/calendar-10.png" alt="day2" />
+                  Day2
+                </button>
+
+                <button type="button" className="planner_day_button" onClick={handleButton3}>
+                  <img
+                    src="https://i.ibb.co/0Zz2y03/calendar-8.png"
+                    alt="day3"
+                  />
+                  Day3
+                </button>
+              </div>
+
+              <div className="planner_card_main_container">
+                <div className="planner_card_sub_container">
+                  <Swiper
+                    effect={"cards"}
+                    grabCursor={true}
+                    modules={[EffectCards]}
+                    className="mySwiper"
+                  >
+                    {daysdata.map((data, index) => {
+                      if (
+                        data.place_type &&
+                        data.rating &&
+                        data.time &&
+                        data.price &&
+                        data.icon &&
+                        data.icon_color &&
+                        data.icon_bgcolor === " "
+                      ) {
+                        return (
+                          <>
+                            <SwiperSlide
+                              key={index}
+                              className="planner_swiper-slide"
+                            >
+                              <div className="planner_swipe_slide_div_expand">
+                                <div className="planner_card_img_expand">
+                                  <img src={data.place_img} alt="Place Image" />
+                                </div>
+                                <div className="planner_card_description_expand">
+                                  <p>
+                                    <strong>🍜{data.place_name}</strong>
+                                  </p>
+                                </div>
+                              </div>
+                            </SwiperSlide>
+                          </>
+                        );
+                      }
+
+                      else if (data.rating && data.price === " ") {
+                        return (
+                          <>
+                            <SwiperSlide
+                              key={index}
+                              className="planner_swiper-slide"
+                            >
+                              <div className="planner_swipe_slide_div">
+                                <div className="planner_card_img_attraction">
+                                  <div>
+                                    <img
+                                      src={data.place_img}
+                                      alt="Place Image"
+                                    />
+                                  </div>
+                                  <div>
+                                    <button
+                                      className="planner_placetype_button"
+                                      style={{
+                                        backgroundColor: data.icon_bgcolor,
+                                      }}
+                                    >
+                                      <i className={data.icon} style={{ color: data.icon_color }}></i>
+                                      {data.place_type}
+                                    </button>
+                                  </div>
+                                </div>
+                                <div className="planner_card_description_attraction">
+                                  <p className="planner_card_attraction_para">
+                                    <strong>{data.place_name}</strong>
+                                  </p>
+                                  <p className="planner_card_time_attraction">
+                                    <i className="fa-regular fa-clock"></i>
+                                    {data.time}
+                                  </p>
+                                </div>
+                              </div>
+                            </SwiperSlide>
+                          </>
+                        );
+                      }
+
+                      else {
+                        return (
+                          <>
+                            <SwiperSlide
+                              key={index}
+                              className="planner_swiper-slide"
+                            >
+                              <div className="planner_swipe_slide_div">
+                                <div className="planner_card_img">
+                                  <div>
+                                    <img
+                                      src={data.place_img}
+                                      alt="Place Image"
+                                    />
+                                  </div>
+                                  <div>
+                                    <button
+                                      className="planner_placetype_button"
+                                      style={{
+                                        backgroundColor: data.icon_bgcolor,
+                                      }}
+                                    >
+                                      <i
+                                        className={data.icon}
+                                        style={{ color: data.icon_color }}
+                                      ></i>{" "}
+                                      {data.place_type}
+                                    </button>
+                                  </div>
+                                </div>
+                                <div className="planner_card_description">
+                                  <p>
+                                    <strong>{data.place_name}</strong>
+                                  </p>
+                                  <p>{data.rating}</p>
+                                  <p className="planner_card_time">
+                                    <i className="fa-regular fa-clock"></i>
+                                    {data.time}
+                                  </p>
+                                  <p>
+                                    INR <strong>{data.price}</strong>
+                                  </p>
+                                  <button className="planner_card_booknow">
+                                    Book Now
+                                  </button>
+                                </div>
+                              </div>
+                            </SwiperSlide>
+                          </>
+                        );
+                      }
+                    })}
+                  </Swiper>
+                </div>
+              </div>
+
+              <div className="planner_pdf_download_button">
+                {/* <button onClick={renderPdf}>Download PDF</button> */}
+                <button onClick={generatePDF} className="btn solid">Download PDF</button>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="panels-container">
+          <div class="panel left-panel">
+            <div class="content">
+              <h3>New here ?</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Debitis, ex ratione. Aliquid!
+              </p>
+              <button
+                class="btn transparent"
+                id="sign-up-btn"
+                onClick={handleProceedClick}
+              >
+                Proceed
+              </button>
+            </div>
+            <img src={form_svg} class="image" alt="" />
+          </div>
+          <div class="panel right-panel">
+            <div class="content">
+              <h3>One of us ?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                laboriosam ad deleniti.
+              </p>
+              <button
+                class="btn transparent"
+                id="sign-in-btn"
+                onClick={handleFormClick}
+              >
+                Back
+              </button>
+            </div>
+            <img src={payment_svg} class="image" alt="" />
+          </div>
+        </div>
+      </div>
+      
+    </>
+  );
+}
+
+export default Form;
+
+Form.css
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+} */
+/* body{
+  position: relative;
+} */
+
+.container {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  min-height: 100vh;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+.forms-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.form_submit-proceed {
+  position: relative;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 75%;
+  width: 50%;
+  transition: 1s 0.7s ease-in-out;
+  display: grid;
+  grid-template-columns: 1fr;
+  z-index: 5;
+}
+
+.submit-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 5rem;
+  transition: all 0.2s 0.7s;
+  overflow: hidden;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+/* .proceed-form {
+  opacity: 0;
+  z-index: 1;
+}
+
+.submit-form {
+  z-index: 2;
+} */
+
+.title {
+  font-size: 2.2rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  max-width: 380px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+}
+
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+.main_start_end{
+  display: flex;
+  /* display: table-column; */
+    width: 100%;
+    border: 0;
+    margin: 10px 0px;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+    border-radius: 18px;
+    resize: none;
+    color: #aaa;
+    font-weight: 500;
+  font-size: 1rem;
+
+
+}
+.start
+{ 
+    /* margin-right: 1.5rem; */
+    margin-right: 8px;
+    
+}
+
+.end
+{ 
+    /* margin-left: 1.5rem; */
+    margin-left: 8px;
+}
+
+#start_end_arrow{
+  margin-top: 6px;
+  font-size: 1rem;
+}
+
+#date_picker{
+  /* background-color: #dad3d3e8; */
+  background-color: transparent;
+  /* color: #acacac83; */
+  border: none;
+  border-radius: 6px;
+  margin-left: 6px;
+  padding: 2px;
+  font-weight: 500;
+  
+}
+
+.radio_transport{
+  line-height: 1;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: rgb(153, 151, 151);
+  margin: 6px 0px;
+}
+
+.radio_1{
+  margin-left: 12px;
+}
+
+.radio_2{
+  margin-left: 12px;
+}
+
+
+
+.stars_hotel_dropdown{
+
+  background-color: #f0f0f0;
+  margin: 12px;
+  height: 50px;
+  border-radius: 12px;
+  border: none ;
+  padding: 0 10px;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.hotel_dropdown > span{
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: rgb(153, 151, 151);
+}
+
+@media (max-width: 600px){
+  .radio_2{
+    margin-left: 86%;
+  }
+}
+
+
+.btn {
+  width: 150px;
+  background-color: #5995fd;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: #4d84e2;
+}
+.panels-container {
+  /* position: absolute; */
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container:before {
+  content: "";
+  position: absolute;
+  height: 2000px;
+  width: 2000px;
+  top: -10%;
+  right: 48%;
+  transform: translateY(-50%);
+  background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+  transition: 1.8s ease-in-out;
+  border-radius: 50%;
+  z-index: 6;
+}
+
+.image {
+  width: 100%;
+  transition: transform 1.1s ease-in-out;
+  transition-delay: 0.4s;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  text-align: center;
+  z-index: 6;
+}
+
+.left-panel {
+  pointer-events: all;
+  padding: 3rem 17% 2rem 12%;
+}
+
+.right-panel {
+  pointer-events: none;
+  padding: 3rem 12% 2rem 17%;
+}
+
+.panel .content {
+  color: #fff;
+  transition: transform 0.9s ease-in-out;
+  transition-delay: 0.6s;
+}
+
+.panel h3 {
+  font-weight: 600;
+  line-height: 1;
+  font-size: 1.5rem;
+}
+
+.panel p {
+  font-size: 0.95rem;
+  padding: 0.7rem 0;
+}
+
+.btn.transparent {
+  margin: 0;
+  background: none;
+  border: 2px solid #fff;
+  width: 130px;
+  height: 41px;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.right-panel .image,
+.right-panel .content {
+  transform: translateX(800px);
+}
+
+/* ANIMATION */
+
+.container.proceed-mode:before {
+  transform: translate(100%, -50%);
+  right: 52%;
+}
+
+.container.proceed-mode .left-panel .image,
+.container.proceed-mode .left-panel .content {
+  transform: translateX(-800px);
+}
+
+.container.proceed-mode .form_submit-proceed {
+  left: 25%;
+}
+
+.container.proceed-mode form.proceed-form {
+  opacity: 1;
+  z-index: 2;
+}
+
+.container.proceed-mode form.submit-form {
+  opacity: 0;
+  z-index: 1;
+}
+
+.container.proceed-mode .right-panel .image,
+.container.proceed-mode .right-panel .content {
+  transform: translateX(0%);
+}
+
+.container.proceed-mode .left-panel {
+  pointer-events: none;
+}
+
+.container.proceed-mode .right-panel {
+  pointer-events: all;
+}
+
+@media (max-width: 870px) {
+
+  .container {
+    min-height: 800px;
+    height: 100vh;
+  }
+  .form_submit-proceed {
+    width: 100%;
+    top: 95%;
+    transform: translate(-50%, -100%);
+    transition: 1s 0.8s ease-in-out;
+  }
+
+  .form_submit-proceed,
+  .container.proceed-mode .form_submit-proceed {
+    left: 50%;
+  }
+
+  .panels-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+  }
+
+  .panel {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5rem 8%;
+    grid-column: 1 / 2;
+  }
+
+  .right-panel {
+    grid-row: 3 / 4;
+  }
+
+  .left-panel {
+    grid-row: 1 / 2;
+  }
+
+  .image {
+    width: 200px;
+    transition: transform 0.9s ease-in-out;
+    transition-delay: 0.6s;
+  }
+
+  .panel .content {
+    padding-right: 15%;
+    transition: transform 0.9s ease-in-out;
+    transition-delay: 0.8s;
+  }
+
+  .panel h3 {
+    font-size: 1.2rem;
+  }
+
+  .panel p {
+    font-size: 0.7rem;
+    padding: 0.5rem 0;
+  }
+
+  .btn.transparent {
+    width: 110px;
+    height: 35px;
+    font-size: 0.7rem;
+  }
+
+  .container:before {
+    width: 1500px;
+    height: 1500px;
+    transform: translateX(-50%);
+    left: 30%;
+    bottom: 68%;
+    right: initial;
+    top: initial;
+    transition: 2s ease-in-out;
+  }
+
+  .container.proceed-mode:before {
+    transform: translate(-50%, 100%);
+    bottom: 32%;
+    right: initial;
+  }
+
+  .container.proceed-mode .left-panel .image,
+  .container.proceed-mode .left-panel .content {
+    transform: translateY(-300px);
+  }
+
+  .container.proceed-mode .right-panel .image,
+  .container.proceed-mode .right-panel .content {
+    transform: translateY(0px);
+  }
+
+  .right-panel .image,
+  .right-panel .content {
+    transform: translateY(300px);
+  }
+
+  .container.proceed-mode .form_submit-proceed {
+    top: 5%;
+    transform: translate(-50%, 0);
+  }
+}
+
+@media (max-width: 570px) {
+  form {
+    padding: 0 1.5rem;
+  }
+
+  .image {
+    display: none;
+  }
+  .panel .content {
+    padding: 0.5rem 1rem;
+  }
+  .container {
+    padding: 1.5rem;
+  }
+
+  .container:before {
+    bottom: 72%;
+    left: 50%;
+  }
+
+  .container.proceed-mode:before {
+    bottom: 28%;
+    left: 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General CSS for Swiper Cards */
+
+.planner_sub_container{
+  margin-top: 5em;
+  margin-left: 10em; 
+}
+
+.planner_button_container{
+  width: 250px;
+  /* width: 350px; */
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planner_day_button{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  font-weight: bold;
+  background-color:#F68712;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 0.7em 1.5em;
+  margin: 1em;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  /* margin-left:5em; */
+}
+
+.planner_day_button:hover{
+  background-color: #e8d557;
+  color: black;
+}
+
+.planner_day_button img{
+  margin-right: 10px;
+  width: 45px;
+}
+
+.planner_card_main_container{
+  padding: 20px;
+  border-radius: 18px;
+  width: 280px;
+  height: 400px;  
+  /* margin-left: 4em; */
+}
+
+.planner_swiper-slide {
+  border: 2px solid black;
+  border-radius: 18px;
+  background-color:white;
+  /* background-image: linear-gradient(rgb(95, 95, 255), rgb(212, 212, 255)); */
+  /* background-image: linear-gradient(whitesmoke, rgb(95, 95, 255)); */
+  /* background-image: linear-gradient(rgb(251, 208, 127), rgb(255, 136, 1)); */
+  color: black;
+  padding: 20px;
+  width: 300px;
+  height: 350px;
+} 
+
+.planner_card_img{
+  display: flex;
+  
+}
+
+.planner_card_img img{
+  width: 60px;
+  border-radius: 8px;
+
+}
+
+.planner_placetype_button{
+    border:none;
+    display: flex;
+    border-radius: 5px;
+    padding: 0.2em 0.5em;
+    font-size: 1em;
+    margin: 0.5em;
+}
+
+.planner_placetype_button > i{
+  padding-right: 5px;
+}
+
+.planner_card_booknow{
+  margin-top: 10px;
+  margin-left: 45px;
+  padding: 0.5em 1em;
+  border-radius: 22px;
+  font-size: 1em;
+  border: none;
+  background-color: #F68712;
+  font-weight: bold;
+  color: white;
+  /* box-shadow: 2px -2px 4px black; */
+}
+
+/* ================== CSS for if condition in Form.js Swiper Content ================= */
+
+.planner_swipe_slide_div_expand{
+  width: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.planner_card_img_expand{
+  height: 190px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+
+}
+.planner_card_img_expand img{
+      width: 150px;
+      border-radius: 8px;
+}
+
+.planner_card_description_expand > p{
+    text-decoration: underline #91c1e1 2px;
+    font-size: 1.5em;
+}
+
+.planner_card_time i{
+  margin-right: 5px;
+}
+
+/* ================== CSS for else if condition in Form.js Swiper Content ================= */
+.planner_card_img_attraction{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.planner_card_img_attraction img{
+  width: 150px;
+      border-radius: 8px;
+
+}
+.planner_card_description_attraction{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.planner_card_attraction_para{
+  font-size: 1.5em;
+}
+.planner_card_description_attraction > p{
+ 
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
+}
+
+.planner_card_time_attraction{
+  margin: 0;
+}
+.planner_card_time_attraction > i{
+margin-right: 5px;
+}
+
+.planner_pdf_download_button{
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* ============================= Media Queries for Swiper Cards ============================== */
+@media screen and (max-width:749px) {
+  
+.planner_sub_container{
+  margin-top: 5em;
+  margin-left: 10em; 
+}
+
+}
+@media screen and (max-width:576px) {
+  
+.planner_sub_container{
+  margin-top: 5em;
+  margin-left: 6em; 
+}
+.planner_button_container{
+  width: 348px;
+  margin-right: auto;
+}
+
+
+}
+@media screen and (max-width:518px) {
+  
+.planner_sub_container{
+ 
+  margin-top: 3em;
+  margin-left: 3em; 
+}
+.planner_button_container{
+  width: 250px;
+  margin-left:10px;
+}
+.planner_day_button{
+  /* border-radius: 25px; */
+  font-size: 0.9em;
+  padding: 0.8em 1em;
+  margin: 0.5em;
+  cursor: pointer;
+}
+.planner_day_button img{
+  width: 35px;
+}
+
+.planner_card_booknow{
+  margin-top: 15px;
+  margin-left: 45px;
+}
+
+
+}
+
+
+
+Form.js
+// once you click budget button the page will reload check that and you need to click twice for budget.
+import React, { useEffect, useState } from "react";
+import form_svg from "./form.svg";
+import payment_svg from "./payment.svg";
+import { Link} from "react-router-dom";
+import axios from "axios";
+import jsPDF from "jspdf";
+
+import "./Form.css";
+
+import "swiper/css";
+import "swiper/css/effect-cards";
+
+// npm install react-datepicker date-fns //
+
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import { parseISO } from "date-fns";
+
+
+function Form(props) {
+  
+  const [isSubmitMode, setisSubmitMode] = useState(false);
+  const [day1, setDay1] = useState([]);
+  const [day2, setDay2] = useState([]);
+  const [day3, setDay3] = useState([]);
+  const [hotel, setHotel] = useState();
+  const [transport, setTransport] = useState();
+  const [hotel_price, setHotel_price] = useState(0);
+  const [transport_price, setTransport_price] = useState(0);
+  const [customize, setCustomize] = useState();
+  const [budget, setBudget] = useState(0);
+  const [showText, setShowText] = useState(false);
+  const [cityname, setCityname] = useState("");
+  const [num_of_people, setNum_of_people] = useState();
+
+  const [showcustombtn, setShowcustombtn] = useState(false);
+  const [showpdfbtn, setShowpdfbtn] = useState(false);
+
+  const [formdata, setformdata] = useState({});
+
+  const [selectedDate, setSelectedDate] = useState(null);
+
+  //=========================================Function to store form details======================================================//
+  
+  const handlechange = (event) => {
+    const name = event.target.name;
+    const value = event.target.value;
+    setformdata({ ...formdata, [name]: value });
+  };
+
+
+  //=========================================Function to handle date selection======================================================//
+   
+  const handleDateChange = (date) => {
+    setSelectedDate(date);
+  };
+
+  //============================Function to filter available dates to today and future dates===========================================//
+  
+  const isFutureDate = (date) => {
+    const today = new Date();
+    return date >= today;
+  };
+
+  //============================================Function to calculate budget============================================================//
+
+  const handleButtonShowBudget = () => {
+    setShowText(true);
+    let hotel_pri = day1[0].price;
+    let transport_pri = 5000;
+    let people = formdata.num_of_people;
+    if (transport === "Yes" && hotel === "Yes") {
+      setHotel_price(hotel_pri);
+      setTransport_price(5000);
+      const cal = people * hotel_pri + transport_pri;
+      console.log(cal);
+      setBudget(cal);
+    } else if (transport === "Yes" && hotel === "No") {
+      setHotel_price(0);
+      setTransport_price(5000);
+      const cal = 5000;
+      console.log(cal);
+      setBudget(cal);
+    } else if (transport === "No" && hotel === "Yes") {
+      setHotel_price(hotel_pri);
+      setTransport_price(0);
+      const cal = people * hotel_pri;
+      console.log(cal);
+      setBudget(cal);
+    } else if (transport === "No" && hotel === "No") {
+      setHotel_price(0);
+      setTransport_price(0);
+      setBudget(0);
+    }
+  };
+
+  //====================Function to setisSubmitMode "true" when "proceed" is clickked to show left panel============================//
+
+  const handleProceedClick = () => {
+    setisSubmitMode(true);
+  };
+
+  //====================Function to setisSubmitMode "false" when "back" is clicked to show right panel==============================//
+
+  const handleFormClick = () => {
+    setisSubmitMode(false);
+  };
+
+  //=====================================Function to submit details of right section================================================//
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // setCityname(formdata.cityname);
+    setNum_of_people(formdata.num_of_people);
+    // Send POST request to server with the cityname
+    // let ct = formdata.cityname
+    // let ctname = ct.toLowerCase()
+  //  axios.post("https://trip-planner-iq8f.vercel.app/getplanner", { cityname })
+   axios.post("http://localhost:3001/getplanner", { cityname })
+          .then((response) => {
+            const { cityname, Day1, Day2, Day3 } = response.data;
+            setDay1(Day1);
+            setDay2(Day2);
+            setDay3(Day3);
+            // setCity(cityname);
+          })
+          .catch((err) => console.log(err));
+    
+        handleProceedClick()
+        
+        
+   
+  };
+
+
+  //=====================================Function to submit the further details of left section=====================================//
+
+  const handleSubmit2 = (e) => {
+    e.preventDefault();
+    setTransport(formdata.transport);
+    setHotel(formdata.hotel);
+    setCustomize(formdata.customize);
+    if (formdata.customize === "Yes") {
+      setShowpdfbtn(false);
+      setShowcustombtn(true);
+    } else {
+      setShowcustombtn(false);
+      setShowpdfbtn(true);
+    }
+
+  };
+   //=====================================Function of customize button, to redirect it into planner section=====================================//
+
+  // ============================= PDF GENERATION CODE ============================================================================//
+  const generatePDF = () => {
+    const doc = new jsPDF();
+
+    // Set the maximum width and height for the content area
+    const maxWidth = doc.internal.pageSize.getWidth();
+    const maxHeight = doc.internal.pageSize.getHeight();
+    doc.setFont("Fredoka",'bold');
+    doc.setFontSize(24);
+    doc.addImage("https://i.ibb.co/QKkrvRx/Main-logo.png",10,5,35,15)
+    doc.text("Your trip to "+ cityname.toUpperCase() + ", India", 15, 35);
+    doc.setFontSize(13)
+    doc.setFont("Fredoka", 'light')
+    doc.setTextColor(	0, 117, 195)
+    doc.text("**Discover the magic of your next adventure - where every destination is a story and every moment", 15,45)
+    doc.text(" is a memory in the making.", 15, 53)
+    doc.setFont("Fredoka",'bold');
+    doc.setTextColor(0,0,0)
+    doc.setFontSize(20);
+    // doc.text( 45, 40);
+
+    let daynum = 2;
+
+    const imgWidth = 80; // Set the desired width
+    const imgHeight = 40; // Set the desired height
+
+    let leftColumnX = 15;
+    let rightColumnX = 105;
+    // Initial Y position
+    let currentY = 60;
+
+    // Function to add an image with its description and handle pagination
+    const addImageWithDescription = (imageData, description) => {
+      // Calculate the height required for the text
+      const textHeight = doc.getTextDimensions(description).h;
+
+      // Check if adding the description exceeds the page height
+      if (currentY + textHeight + imgHeight > maxHeight) {
+        doc.addPage();
+        doc.text("Day " + daynum, 20, 15);
+        currentY = 15; // Reset Y position for the new page
+        daynum++;
+      }
+      // Add the image
+      doc.addImage(
+        imageData,
+        "JPEG",
+        leftColumnX,
+        currentY + 10,
+        imgWidth,
+        imgHeight
+      ); // Adjust coordinates and dimensions as needed
+      doc.setFontSize(16);
+      // Add the description text
+      doc.text(rightColumnX, currentY + 20, description); // Adjust the Y coordinate as needed
+      doc.setFontSize(18);
+      // currentY += 90; // Adjust as needed based on your layout
+
+      // Update the Y position for the next element
+      currentY += Math.max(50, textHeight) + 10; // Adjust as needed based on your layout
+    };
+
+    // Iterate through your data (e.g., Day1) to add images with descriptions
+    doc.text("Day 1", 20, 65);
+    day1.map((place, index) => {
+      if (place.place_type === 'Attraction'){
+        const imageData = place.place_img;
+
+        const description = `Place: ${place.place_name}\nType: ${place.place_type}\nTime: ${place.time}\n`;
+  
+        // Add the image with description
+        addImageWithDescription(imageData, description);
+      }
+      
+    });
+
+    day2.map((place, index) => {
+      if (place.place_type === 'Attraction'){
+        const imageData = place.place_img;
+
+        const description = `Place: ${place.place_name}\nType: ${place.place_type}\nTime: ${place.time}\n`;
+  
+        // Add the image with description
+        addImageWithDescription(imageData, description);
+      }
+    });
+
+    day3.map((place, index) => {
+      if (place.place_type === 'Attraction'){
+        const imageData = place.place_img;
+
+        const description = `Place: ${place.place_name}\nType: ${place.place_type}\nTime: ${place.time}\n`;
+  
+        // Add the image with description
+        addImageWithDescription(imageData, description);
+      }
+    });
+
+    // Save the PDF
+    doc.save(`${cityname}-travel-itinerary.pdf`);
+  };
+
+
+  //=====================================Front-end starts here=============================================================================//
+
+
+  return (
+    <>
+      <div className={`container ${isSubmitMode ? "proceed-mode" : ""}`}>
+        <div class="forms-container">
+          <div class="form_submit-proceed">
+            <form
+              id="form"
+              onSubmit={handleSubmit}
+              className={`submit-form ${isSubmitMode ? "hidden" : ""}`}
+            >
+              <h2 className="from_title">Details</h2>
+              <div className="input-field">
+                <i className="fas fa-sharp fa-solid fa-city "></i>
+                <input
+                  type="text"
+                  placeholder="City Name"
+                  name="cityname"
+                  onChange={(e) => setCityname(e.target.value)}
+                  required
+                />
+              </div>
+              <div className="input-field">
+                <i className="fas fa-solid fa-user"></i>
+                <input
+                  type="number"
+                  placeholder="Number Of People"
+                  name="num_of_people"
+                  onChange={handlechange}
+                  required
+                />
+              </div>
+              
+                <div className="input-field">
+                  <i className="fas fa-solid fa-calendar-day"></i>
+                  <DatePicker
+                    className="starting_Datepicker"
+                    placeholderText="Select Starting Date"
+                    selected={selectedDate}
+                    name="datepicker"
+                    onChange={handleDateChange}
+                    minDate={new Date()} // Set minimum date to today
+                    filterDate={isFutureDate} // Only allow future dates
+                  />
+                </div>
+                <div className="input-field">
+                <i class="fas fa-regular fa-calendar-plus fa-bounce"></i>
+                  <input
+                    type="number"
+                    placeholder="Number Of Days"
+                    name="num_of_days"
+                    onChange={handlechange}
+                    required
+                  />
+                </div>
+              
+              <span>
+                <input
+                  type="submit"
+                  value="Submit"
+                  className="form_btn "
+                  onClick={handleSubmit}
+                />
+              </span>
+            </form>
+            {/* Next Section - Left */}
+            <form
+              onSubmit={handleSubmit2}
+              className={`proceed-form ${isSubmitMode ? "" : "hidden"}`}
+            >
+              <h2 class="form_title">Plan Your Travel</h2>
+              <br />
+              <div className="radio_transport">
+                <span className="both_radio">
+                  Do You Want Hotel Facility ?
+                  <input
+                    type="radio"
+                    name="hotel"
+                    className="radio_1"
+                    onChange={handlechange}
+                    value="Yes"
+                  />
+                  Yes
+                  <input
+                    type="radio"
+                    name="hotel"
+                    className="radio_2"
+                    onChange={handlechange}
+                    value="No"
+                  />
+                  No
+                </span>
+              </div>
+              <br />
+              <div className="radio_transport">
+                <span className="both_radio">
+                  Do You Want Transport Facility ?
+                  <input
+                    type="radio"
+                    name="transport"
+                    className="radio_1"
+                    onChange={handlechange}
+                    value="Yes"
+                  />
+                  Yes
+                  <input
+                    type="radio"
+                    name="transport"
+                    className="radio_2"
+                    onChange={handlechange}
+                    value="No"
+                  />
+                  No
+                </span>
+              </div>
+              <br/>
+              <div className="radio_transport">
+                <span className="both_radio">
+                  Do You Want customize your travel places ?
+                  <input
+                    type="radio"
+                    name="customize"
+                    className="radio_1"
+                    onChange={handlechange}
+                    value="Yes"
+                  />
+                  Yes
+                  <input
+                    type="radio"
+                    name="customize"
+                    className="radio_2"
+                    onChange={handlechange}
+                    value="No"
+                  />
+                  No
+                </span>
+              </div>
+              <br />
+              <span className="planner_showhidebtn">
+                <input type="submit" value="Submit" className="form_btn" />
+                <button onClick={handleButtonShowBudget} className="form_btn">
+                  Check Budget
+                </button>
+
+                {showpdfbtn && (
+                  <button onClick={generatePDF} className="pdf_btn">
+                    Download Pdf
+                  </button>
+                )}
+
+                {showcustombtn && (
+                 <Link to='/planner'> <button className="form_btn">Customize</button></Link>
+                )}
+              </span>
+              <br />
+
+              <br />
+              <div>
+                {showText && (
+                  <span className="planner_budget">
+                    <span>
+                      <i class="fas fa-sharp fa-solid fa-hotel"></i>Hotel Price:{" "}
+                      <i class="fas fa-sharp fa-regular fa-indian-rupee-sign"></i>
+                      {hotel_price}
+                    </span>
+                    <span>
+                      <i class="fas fa-duotone fa-car-side"></i>Transport Price:{" "}
+                      <i class="fas fa-sharp fa-regular fa-indian-rupee-sign"></i>
+                      {transport_price}
+                    </span>
+                    <span>
+                      <i class="fas fa-sharp fa-regular fa-money-bills"></i>
+                      Total Persons:{" "}
+                      {num_of_people}
+                    </span>
+                    <span>
+                      <i class="fas fa-sharp fa-regular fa-money-bills"></i>
+                      <strong>Total Budget:{" "}
+                      <i class="fas fa-sharp fa-regular fa-indian-rupee-sign"></i>
+                      {budget}</strong>
+                    </span>
+                  </span>
+                )}
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="panels-container">
+          <div class="panel left-panel">
+            <div class="form_content">
+              <h3>Shall we proceed ?</h3>
+              <p>
+                Adventure is worthwhile in itself. So, go ahead, plan your trip
+                and let the journey begin!
+              </p>
+              {/* <button
+                class="form_btn transparent"
+                id="sign-up-btn"
+                onClick={handleProceedClick}
+              >
+                Proceed
+              </button> */}
+            </div>
+            <img src={form_svg} class="form_image" alt="" />
+          </div>
+
+          <div class="panel right-panel">
+            <div class="form_content">
+              <h3>Want to update something ?</h3>
+              <p>
+                Flexibility is the key to a perfect trip. Feel free to step back
+                and fine-tune your plans until they're exactly how you envision
+                them.
+              </p>
+              <button
+                class="form_btn transparent"
+                id="sign-in-btn"
+                onClick={handleFormClick}
+              >
+                Back
+              </button>
+            </div>
+            <img src={payment_svg} class="form_image" alt="" />
+          </div>
+        </div>
+      </div>
+
+
+    </>
+  );
+}
+
+export default Form;
+
+
+Planner.js
+import React, { useEffect, useState, useRef, useContext } from 'react'
+import {useJsApiLoader , GoogleMap, Marker, Autocomplete, DirectionsRenderer} from '@react-google-maps/api'
+import { Link } from 'react-router-dom';
+import {  cityname } from '../Form/Form';
+import "./Planner.css"
+import axios from 'axios'
+const center = { lat: 48.8584, lng: 2.2945 };
+
+
+function Planner({day1,cityname}) {
+
+  // const extra_places = [
+  //   {
+  //     "place_image": "https://i.ibb.co/bRr4WLb/delhi-haat.jpg",
+  //     "place_name": "Delhi Haat INA",
+  //     "description": "The DILLI HAAT provides the ambience of a traditional Rural Haat or village market, but one suited for more contemporary needs.",
+  //     "place_time": "3 hours ",
+  //     "place_type": "Attraction"
+  //   },
+  //   {
+  //     "place_name": "India Gate",
+  //     "place_image": "https://i.ibb.co/N7HM1D2/india-gate.jpg",
+  //     "place_time": "1hr",
+  //     "description": "The DILLI HAAT provides the ambience of a traditional Rural Haat or village market, but one suited for more contemporary needs.",
+  //     "place_type": "Attraction"
+  //   },
+  //   {
+
+  //     "place_name": "Lotus Temple",
+  //     "place_image": "https://i.ibb.co/QdHm1Dc/Lotus-Temple.jpg",
+  //     "description": "The DILLI HAAT provides the ambience of a traditional Rural Haat or village market, but one suited for more contemporary needs.",
+  //     "place_time": "3hr",
+  //     "place_type": "Attraction"
+
+  //   },
+  //   {
+
+  //     "place_name": "Qutub Minar",
+  //     "place_image": "https://i.ibb.co/nfSGf85/Qutub-Minar.jpg",
+  //     "description": "The DILLI HAAT provides the ambience of a traditional Rural Haat or village market, but one suited for more contemporary needs.",
+  //     "place_time": "1.5hr",
+  //     "place_type": "Attraction"
+
+  //   }
+  // ]
+
+
+
+  const [directionsResponse, setDirectionsResponse] = useState(null);
+  const [distance, setDistance] = useState('');
+  const [duration, setDuration] = useState('');
+
+  /**@type React.MutableRefObject<HTMLInputElement> */
+  const originRef = useRef();
+    /**@type React.MutableRefObject<HTMLInputElement> */
+  const destinationRef = useRef();
+
+  const [map, setMap]= useState(/** @type google.maps.Map */(null))
+
+
+  const {isLoaded}= useJsApiLoader({
+    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+    libraries : ['places'],
+
+  })
+  if (!isLoaded){
+    return console.log("Loading in progress")
+  }
+
+
+  async function calculateRoute() {
+    if (originRef.current.value === '' || destinationRef.current.value === '') {
+      return;
+    }
+    // eslint-disable-next-line no-undef
+    const directionService = new google.maps.DirectionsService()
+    const results = await directionService.route({
+      origin : originRef.current.value,
+      destination : destinationRef.current.value,
+      // eslint-disable-next-line no-undef
+      travelMode : google.maps.TravelMode.DRIVING
+    })
+    setDirectionsResponse(results)
+    setDistance(results.routes[0].legs[0].distance.text)
+    setDuration(results.routes[0].legs[0].duration.test)
+
+  }
+
+  function clearRoute() {
+    setDirectionsResponse(null);
+    setDistance('');
+    setDuration('');
+    originRef.current.value = '';
+    destinationRef.current.value = '';
+  }
+
+  return (
+    
+    <div className='planner_container'>
+      <div className='planner_main_left_panel'>
+        {/* Planner Header */}
+        <div className='planner_main_header'>
+          <div className='planner_header_left_arrow_icon'>
+            {/* <i className='fas fa-solid fa-arrow-left fa-shake'></i> */}
+            <i class="fa-solid fa-chevron-left"></i>
+          </div>
+
+          <div className='planner_header_left_logo'>
+            <Link to="/"><img src="https://i.ibb.co/QKkrvRx/Main-logo.png" alt="Trip Planner Logo" width="110px" height="50px" /></Link>
+          </div>
+        </div>
+
+
+
+        {/* Cards Code */}
+        <div className='planner_main_section_container'>
+
+          <div className='planner_section_heading'>
+            <h2>Top sights in {}</h2>
+            <p>Select the places you would like to include for your visit in {}</p>
+          </div>
+          {/* Buttons Code */}
+
+          <div className="planner_section_button_container">
+
+          </div>
+
+
+          {/* <div>
+            {
+              day1.map((data, index) => {
+                if (data.place_type === "Attraction") {
+                  return (
+                    <div key={index} className='planner_section_cards'>
+                      <img src={data.place_image} alt={data.place_name} className='planner_section_cards_image' />
+                      <div className='planner_section_cards_description'>
+                        <div className="planner_s_c_d_heading">
+                          <h3>{data.place_name}</h3>
+                          <form>
+                            <input type="checkbox" name="plannercheckbox" className='planner_checkbox' />
+                          </form>
+                        </div>
+                        <div className="planner_s_c_d_para">
+                          <p>ABC</p>
+                          <p>{data.description}</p>
+                        </div>
+                        <div className="planner_s_c_d_utilities">
+                          <p>{data.place_time}</p>
+                        </div>
+                      </div>
+                    </div>
+                  )
+                }
+
+
+              })
+            }
+          </div> */}
+
+
+        </div>
+
+      </div>
+      
+      <div className="planner_main_right_panel">
+        {/* Mapping Code */}
+        <div>
+          {/* Google Map */}
+          
+          <div
+            id="google-map" // Add an id to this div for Google Maps integration
+            style={{
+              position:"absolute",
+              margin:"20px",
+              marginTop : "90px",
+              width:"100%",
+              height : "80vh"
+              
+            }}
+          >
+            {/* Display your Google Map here */}
+            <GoogleMap center={center} zoom={15} mapContainerStyle={{width : '100%', height: "100%"}} onLoad={(map)=>setMap(map)}>
+              <Marker position={center}>
+
+              </Marker>
+              {directionsResponse && <DirectionsRenderer directions={directionsResponse}/>}
+          </GoogleMap>
+          </div>
+
+          <div className='google_navigation_div'>
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+              <Autocomplete>
+
+              <div style={{ flex: 1 }}>
+                <input type="text" placeholder="Origin" ref={originRef} />
+              </div>
+              </Autocomplete>
+              <Autocomplete>
+
+              <div style={{ flex: 1 }}>
+                <input
+                  type="text"
+                  placeholder="Destination"
+                  ref={destinationRef}
+                />
+              </div>
+              </Autocomplete>
+              <div>
+                <button
+                  style={{ backgroundColor: 'pink', color: 'white' }}
+                  onClick={calculateRoute}
+                >
+                  Calculate Route
+                </button>
+                <button onClick={clearRoute}>Clear Route</button>
+              </div>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '16px' }}>
+              <div>Distance: {distance}</div>
+              <div>Duration: {duration}</div>
+              <button
+                onClick={() => map.panTo(center)}
+              >
+                Center Map
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Planner

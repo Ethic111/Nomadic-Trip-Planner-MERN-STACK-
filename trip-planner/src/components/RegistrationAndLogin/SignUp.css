@@ -1,0 +1,118 @@
+.signup_main_container{
+    margin-top: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup_sub_container{
+    border: 2px solid rgb(61, 61, 202);
+    box-shadow:4px 4px 3px #82bce4;
+    padding: 2em;
+    border-radius: 20px;
+    margin-bottom: 3em;
+}
+.signup_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 2em;
+    
+}
+
+.signup_heading{
+    margin-top: 0;
+    text-align: center;
+    text-shadow:2px 2px 3px #82bce4;
+    color: #0075C3;
+}
+.signup_form_element {
+    line-height: 2em;
+}
+.signup_form_element p{
+    margin-bottom: 10px;
+}
+
+
+.signup_form_element > input{
+    width: 350px;
+    font-size: 16px;
+    padding: 1em;
+    border-radius: 0.5em;
+    
+}
+.signup_form_element > a{
+    text-decoration: none;
+    color: #0075C3;  
+}
+.redirect_to_login {
+    margin-top: 2em;
+    text-align: center;
+}
+.redirect_to_login > a{
+    text-decoration: none;
+    color: #0075C3;  
+}
+.signup_button{
+    display: flex;
+    justify-content: center;
+}
+.signup_button > button{
+    margin: 1.3em 0em;
+    border: none;
+    background-color: #0075C3;
+    font-size: 1.1em;
+    padding: 0.5em 1.9em;
+    border-radius: 0.3em;
+    color: whitesmoke;
+}
+
+.additional_signup_button{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.additional_signup_button > button{
+    border: none;
+    background-color: #0075C3;
+    font-size: 1em;
+    padding:0.4em 0.9em;
+    border-radius: 0.3em;
+    color: whitesmoke;
+}
+
+@media screen and (max-width:665px){
+    .signup_sub_container{
+        width: 400px;
+        padding: 2em 0em;
+    }
+    .signup_form div{
+        width: 302px;
+    }
+    .signup_form_element > input{
+        width: 312px;
+        font-size: 16px;
+        padding:  1em;
+        border-radius: 0.5em;
+    }
+    .additional_signup_button > div{
+        width: 220px!important;
+    }
+}
+@media screen and (max-width:500px){
+    .signup_form{
+        padding-top: 0;
+    }
+    .signup_sub_container {
+        width: 327px;
+    }
+    .signup_form div{
+        width: 260px;
+    }
+    .signup_form_element > input{
+        width: 260px;
+        font-size: 16px;
+        padding:0.5em 1em;
+        border-radius: 0.5em;
+    }
+}

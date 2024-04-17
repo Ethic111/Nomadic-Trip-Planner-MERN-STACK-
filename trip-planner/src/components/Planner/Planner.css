@@ -1,0 +1,171 @@
+:root {
+    --blue: #0075c3;
+    --orange:#F68712;
+    --whitesmoke: whitesmoke;
+  }
+
+.planner_container{
+    display: flex;
+    flex-direction: column;
+}
+.planner_main_left_panel{
+    width: 55%;
+}
+
+.planner_main_header{
+    margin: 0;
+    top: 0;
+    width: 55%;
+    position: fixed;
+    display: flex;
+    box-shadow: 0px 2px 4px grey; 
+    background-color: white;
+}
+
+.planner_header_left_arrow_icon{
+    padding: 0em 0.5em 0em 1em ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.planner_header_left_logo{
+    padding: 0.4em;
+}
+
+.planner_main_section_container{
+    margin-top: 5em;
+}
+.planner_section_heading{
+    padding: 10px 20px;
+}
+.planner_section_heading > p{
+    color: grey;
+}
+
+.planner_section_cards{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.planner_s_c_d_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.planner_section_cards_image {
+    border-radius: 20px 0px 0px 20px;
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+
+.planner_section_cards_description{
+    padding: 10px 15px;
+}
+
+
+.planner_checkbox{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.planner_s_c_d_utilities > p{
+    color: grey;
+    margin-top: 2em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Right Panel */
+.planner_main_right_panel{
+    /* width: 45%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+   margin: 20px;
+   padding: 20px;
+
+   position: fixed;
+   top: 0;
+   left: 55%;
+    
+}
+
+.google_navigation_div{
+    padding: 0px 20px;
+}
+.customize_main_list_div{
+    display: flex;
+    /* justify-content:  space-evenly; */
+    margin-bottom: 1.2em;
+}
+.customize_div_description{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 1.2em;
+    /* line-height: 10px; */
+}
+.customize_div_description > p{
+    margin-bottom: 0;
+}
+.remove_btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+
+}
+.remove_btn > button{
+    background-color: white;
+    padding: 0.5em  0.9em;
+    box-shadow: 4px 4px #0075c3;
+    font-size: 1.3em;
+}
+.remove_btn > button:hover{
+    background-color: #0075c3;
+    color: white;
+    box-shadow: 3px 3px black;
+}
+
+
+@media screen and (max-width:1236px) {
+    .planner_main_right_panel{
+        display: none;
+    }
+    .planner_main_left_panel{
+        width: 100%;
+    }
+    .planner_main_header{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:757px) {
+    .customize_main_list_div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 0; */
+        /* flex-direction: row; */
+    }
+    .customize_div_description{
+        display: flex;
+        justify-content: center;
+        
+        margin-left: 0em!important;
+        margin: 1em 0;
+    }
+    .remove_btn {
+        margin-left: 2em;
+    }
+}
+
