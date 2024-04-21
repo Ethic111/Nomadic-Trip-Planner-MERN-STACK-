@@ -35,7 +35,7 @@ Welcome to our Nomadic Trip Planner Website, the ultimate tool for creating pers
 
 To start planning your next adventure:
 
-1. Visit our website and create an account. 
+1. Visit our website and create an account - https://nomadics.vercel.app/
 2. Use the 'Customize' feature to select your desired cities, attractions, and dates.
 3. Book your hotels and transport directly through our platform.
 4. Download your personalized itinerary and get ready for your trip.
